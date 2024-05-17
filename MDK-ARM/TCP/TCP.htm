@@ -3,7 +3,7 @@
 <title>Static Call Graph - [TCP\TCP.axf]</title></head>
 <body><HR>
 <H1>Static Call Graph for image TCP\TCP.axf</H1><HR>
-<BR><P>#&#060CALLGRAPH&#062# ARM Linker, 5060960: Last Updated: Fri May 17 00:31:57 2024
+<BR><P>#&#060CALLGRAPH&#062# ARM Linker, 5060960: Last Updated: Fri May 17 14:02:52 2024
 <BR><P>
 <H3>Maximum Stack Usage =        152 bytes + Unknown(Functions without stacksize, Cycles, Untraceable Function Pointers)</H3><H3>
 Call chain for Maximum Stack Depth:</H3>
@@ -12,7 +12,7 @@ W5500_ReadByte &rArr; W5500_ReadBuff &rArr; HAL_SPI_Receive &rArr; HAL_SPI_Trans
 <H3>
 Functions with no stack information
 </H3><UL>
- <LI><a href="#[5f]">__user_initial_stackheap</a>
+ <LI><a href="#[61]">__user_initial_stackheap</a>
 </UL>
 </UL>
 <P>
@@ -116,9 +116,9 @@ Global Symbols
 <BR><BR>[Calls]<UL><LI><a href="#[50]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__rt_entry
 </UL>
 
-<P><STRONG><a name="[ab]"></a>__scatterload_rt2_thumb_only</STRONG> (Thumb, 0 bytes, Stack size unknown bytes, __scatter.o(!!!scatter), UNUSED)
+<P><STRONG><a name="[ae]"></a>__scatterload_rt2_thumb_only</STRONG> (Thumb, 0 bytes, Stack size unknown bytes, __scatter.o(!!!scatter), UNUSED)
 
-<P><STRONG><a name="[ac]"></a>__scatterload_null</STRONG> (Thumb, 0 bytes, Stack size unknown bytes, __scatter.o(!!!scatter), UNUSED)
+<P><STRONG><a name="[af]"></a>__scatterload_null</STRONG> (Thumb, 0 bytes, Stack size unknown bytes, __scatter.o(!!!scatter), UNUSED)
 
 <P><STRONG><a name="[52]"></a>__scatterload_copy</STRONG> (Thumb, 26 bytes, Stack size unknown bytes, __scatter_copy.o(!!handler_copy), UNUSED)
 <BR><BR>[Calls]<UL><LI><a href="#[52]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__scatterload_copy
@@ -126,80 +126,80 @@ Global Symbols
 <BR>[Called By]<UL><LI><a href="#[52]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__scatterload_copy
 </UL>
 
-<P><STRONG><a name="[ad]"></a>__scatterload_zeroinit</STRONG> (Thumb, 28 bytes, Stack size unknown bytes, __scatter_zi.o(!!handler_zi), UNUSED)
+<P><STRONG><a name="[b0]"></a>__scatterload_zeroinit</STRONG> (Thumb, 28 bytes, Stack size unknown bytes, __scatter_zi.o(!!handler_zi), UNUSED)
 
 <P><STRONG><a name="[56]"></a>__rt_lib_init</STRONG> (Thumb, 0 bytes, Stack size unknown bytes, libinit.o(.ARM.Collect$$libinit$$00000000))
 <BR><BR>[Called By]<UL><LI><a href="#[55]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__rt_entry_li
 </UL>
 
-<P><STRONG><a name="[ae]"></a>__rt_lib_init_alloca_1</STRONG> (Thumb, 0 bytes, Stack size unknown bytes, libinit2.o(.ARM.Collect$$libinit$$0000002E))
+<P><STRONG><a name="[b1]"></a>__rt_lib_init_alloca_1</STRONG> (Thumb, 0 bytes, Stack size unknown bytes, libinit2.o(.ARM.Collect$$libinit$$0000002E))
 
-<P><STRONG><a name="[af]"></a>__rt_lib_init_argv_1</STRONG> (Thumb, 0 bytes, Stack size unknown bytes, libinit2.o(.ARM.Collect$$libinit$$0000002C))
+<P><STRONG><a name="[b2]"></a>__rt_lib_init_argv_1</STRONG> (Thumb, 0 bytes, Stack size unknown bytes, libinit2.o(.ARM.Collect$$libinit$$0000002C))
 
-<P><STRONG><a name="[b0]"></a>__rt_lib_init_atexit_1</STRONG> (Thumb, 0 bytes, Stack size unknown bytes, libinit2.o(.ARM.Collect$$libinit$$0000001B))
+<P><STRONG><a name="[b3]"></a>__rt_lib_init_atexit_1</STRONG> (Thumb, 0 bytes, Stack size unknown bytes, libinit2.o(.ARM.Collect$$libinit$$0000001B))
 
-<P><STRONG><a name="[b1]"></a>__rt_lib_init_clock_1</STRONG> (Thumb, 0 bytes, Stack size unknown bytes, libinit2.o(.ARM.Collect$$libinit$$00000021))
+<P><STRONG><a name="[b4]"></a>__rt_lib_init_clock_1</STRONG> (Thumb, 0 bytes, Stack size unknown bytes, libinit2.o(.ARM.Collect$$libinit$$00000021))
 
-<P><STRONG><a name="[b2]"></a>__rt_lib_init_cpp_1</STRONG> (Thumb, 0 bytes, Stack size unknown bytes, libinit2.o(.ARM.Collect$$libinit$$00000032))
+<P><STRONG><a name="[b5]"></a>__rt_lib_init_cpp_1</STRONG> (Thumb, 0 bytes, Stack size unknown bytes, libinit2.o(.ARM.Collect$$libinit$$00000032))
 
-<P><STRONG><a name="[b3]"></a>__rt_lib_init_exceptions_1</STRONG> (Thumb, 0 bytes, Stack size unknown bytes, libinit2.o(.ARM.Collect$$libinit$$00000030))
+<P><STRONG><a name="[b6]"></a>__rt_lib_init_exceptions_1</STRONG> (Thumb, 0 bytes, Stack size unknown bytes, libinit2.o(.ARM.Collect$$libinit$$00000030))
 
-<P><STRONG><a name="[b4]"></a>__rt_lib_init_fp_1</STRONG> (Thumb, 0 bytes, Stack size unknown bytes, libinit2.o(.ARM.Collect$$libinit$$00000002))
+<P><STRONG><a name="[b7]"></a>__rt_lib_init_fp_1</STRONG> (Thumb, 0 bytes, Stack size unknown bytes, libinit2.o(.ARM.Collect$$libinit$$00000002))
 
-<P><STRONG><a name="[b5]"></a>__rt_lib_init_fp_trap_1</STRONG> (Thumb, 0 bytes, Stack size unknown bytes, libinit2.o(.ARM.Collect$$libinit$$0000001F))
+<P><STRONG><a name="[b8]"></a>__rt_lib_init_fp_trap_1</STRONG> (Thumb, 0 bytes, Stack size unknown bytes, libinit2.o(.ARM.Collect$$libinit$$0000001F))
 
-<P><STRONG><a name="[b6]"></a>__rt_lib_init_getenv_1</STRONG> (Thumb, 0 bytes, Stack size unknown bytes, libinit2.o(.ARM.Collect$$libinit$$00000023))
+<P><STRONG><a name="[b9]"></a>__rt_lib_init_getenv_1</STRONG> (Thumb, 0 bytes, Stack size unknown bytes, libinit2.o(.ARM.Collect$$libinit$$00000023))
 
-<P><STRONG><a name="[b7]"></a>__rt_lib_init_heap_1</STRONG> (Thumb, 0 bytes, Stack size unknown bytes, libinit2.o(.ARM.Collect$$libinit$$0000000A))
+<P><STRONG><a name="[ba]"></a>__rt_lib_init_heap_1</STRONG> (Thumb, 0 bytes, Stack size unknown bytes, libinit2.o(.ARM.Collect$$libinit$$0000000A))
 
-<P><STRONG><a name="[b8]"></a>__rt_lib_init_lc_collate_1</STRONG> (Thumb, 0 bytes, Stack size unknown bytes, libinit2.o(.ARM.Collect$$libinit$$00000011))
+<P><STRONG><a name="[bb]"></a>__rt_lib_init_lc_collate_1</STRONG> (Thumb, 0 bytes, Stack size unknown bytes, libinit2.o(.ARM.Collect$$libinit$$00000011))
 
-<P><STRONG><a name="[b9]"></a>__rt_lib_init_lc_ctype_1</STRONG> (Thumb, 0 bytes, Stack size unknown bytes, libinit2.o(.ARM.Collect$$libinit$$00000013))
+<P><STRONG><a name="[bc]"></a>__rt_lib_init_lc_ctype_1</STRONG> (Thumb, 0 bytes, Stack size unknown bytes, libinit2.o(.ARM.Collect$$libinit$$00000013))
 
-<P><STRONG><a name="[ba]"></a>__rt_lib_init_lc_monetary_1</STRONG> (Thumb, 0 bytes, Stack size unknown bytes, libinit2.o(.ARM.Collect$$libinit$$00000015))
+<P><STRONG><a name="[bd]"></a>__rt_lib_init_lc_monetary_1</STRONG> (Thumb, 0 bytes, Stack size unknown bytes, libinit2.o(.ARM.Collect$$libinit$$00000015))
 
-<P><STRONG><a name="[bb]"></a>__rt_lib_init_lc_numeric_1</STRONG> (Thumb, 0 bytes, Stack size unknown bytes, libinit2.o(.ARM.Collect$$libinit$$00000017))
+<P><STRONG><a name="[be]"></a>__rt_lib_init_lc_numeric_1</STRONG> (Thumb, 0 bytes, Stack size unknown bytes, libinit2.o(.ARM.Collect$$libinit$$00000017))
 
-<P><STRONG><a name="[bc]"></a>__rt_lib_init_lc_time_1</STRONG> (Thumb, 0 bytes, Stack size unknown bytes, libinit2.o(.ARM.Collect$$libinit$$00000019))
+<P><STRONG><a name="[bf]"></a>__rt_lib_init_lc_time_1</STRONG> (Thumb, 0 bytes, Stack size unknown bytes, libinit2.o(.ARM.Collect$$libinit$$00000019))
 
-<P><STRONG><a name="[bd]"></a>__rt_lib_init_preinit_1</STRONG> (Thumb, 0 bytes, Stack size unknown bytes, libinit2.o(.ARM.Collect$$libinit$$00000004))
+<P><STRONG><a name="[c0]"></a>__rt_lib_init_preinit_1</STRONG> (Thumb, 0 bytes, Stack size unknown bytes, libinit2.o(.ARM.Collect$$libinit$$00000004))
 
-<P><STRONG><a name="[be]"></a>__rt_lib_init_rand_1</STRONG> (Thumb, 0 bytes, Stack size unknown bytes, libinit2.o(.ARM.Collect$$libinit$$0000000E))
+<P><STRONG><a name="[c1]"></a>__rt_lib_init_rand_1</STRONG> (Thumb, 0 bytes, Stack size unknown bytes, libinit2.o(.ARM.Collect$$libinit$$0000000E))
 
-<P><STRONG><a name="[bf]"></a>__rt_lib_init_return</STRONG> (Thumb, 0 bytes, Stack size unknown bytes, libinit2.o(.ARM.Collect$$libinit$$00000033))
+<P><STRONG><a name="[c2]"></a>__rt_lib_init_return</STRONG> (Thumb, 0 bytes, Stack size unknown bytes, libinit2.o(.ARM.Collect$$libinit$$00000033))
 
-<P><STRONG><a name="[c0]"></a>__rt_lib_init_signal_1</STRONG> (Thumb, 0 bytes, Stack size unknown bytes, libinit2.o(.ARM.Collect$$libinit$$0000001D))
+<P><STRONG><a name="[c3]"></a>__rt_lib_init_signal_1</STRONG> (Thumb, 0 bytes, Stack size unknown bytes, libinit2.o(.ARM.Collect$$libinit$$0000001D))
 
-<P><STRONG><a name="[c1]"></a>__rt_lib_init_stdio_1</STRONG> (Thumb, 0 bytes, Stack size unknown bytes, libinit2.o(.ARM.Collect$$libinit$$00000025))
+<P><STRONG><a name="[c4]"></a>__rt_lib_init_stdio_1</STRONG> (Thumb, 0 bytes, Stack size unknown bytes, libinit2.o(.ARM.Collect$$libinit$$00000025))
 
-<P><STRONG><a name="[c2]"></a>__rt_lib_init_user_alloc_1</STRONG> (Thumb, 0 bytes, Stack size unknown bytes, libinit2.o(.ARM.Collect$$libinit$$0000000C))
+<P><STRONG><a name="[c5]"></a>__rt_lib_init_user_alloc_1</STRONG> (Thumb, 0 bytes, Stack size unknown bytes, libinit2.o(.ARM.Collect$$libinit$$0000000C))
 
 <P><STRONG><a name="[5b]"></a>__rt_lib_shutdown</STRONG> (Thumb, 0 bytes, Stack size unknown bytes, libshutdown.o(.ARM.Collect$$libshutdown$$00000000))
 <BR><BR>[Called By]<UL><LI><a href="#[5a]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__rt_exit_ls
 </UL>
 
-<P><STRONG><a name="[c3]"></a>__rt_lib_shutdown_cpp_1</STRONG> (Thumb, 0 bytes, Stack size unknown bytes, libshutdown2.o(.ARM.Collect$$libshutdown$$00000004))
+<P><STRONG><a name="[c6]"></a>__rt_lib_shutdown_cpp_1</STRONG> (Thumb, 0 bytes, Stack size unknown bytes, libshutdown2.o(.ARM.Collect$$libshutdown$$00000004))
 
-<P><STRONG><a name="[c4]"></a>__rt_lib_shutdown_fini_1</STRONG> (Thumb, 0 bytes, Stack size unknown bytes, libshutdown2.o(.ARM.Collect$$libshutdown$$00000002))
+<P><STRONG><a name="[c7]"></a>__rt_lib_shutdown_fini_1</STRONG> (Thumb, 0 bytes, Stack size unknown bytes, libshutdown2.o(.ARM.Collect$$libshutdown$$00000002))
 
-<P><STRONG><a name="[c5]"></a>__rt_lib_shutdown_fp_trap_1</STRONG> (Thumb, 0 bytes, Stack size unknown bytes, libshutdown2.o(.ARM.Collect$$libshutdown$$00000009))
+<P><STRONG><a name="[c8]"></a>__rt_lib_shutdown_fp_trap_1</STRONG> (Thumb, 0 bytes, Stack size unknown bytes, libshutdown2.o(.ARM.Collect$$libshutdown$$00000009))
 
-<P><STRONG><a name="[c6]"></a>__rt_lib_shutdown_heap_1</STRONG> (Thumb, 0 bytes, Stack size unknown bytes, libshutdown2.o(.ARM.Collect$$libshutdown$$00000011))
+<P><STRONG><a name="[c9]"></a>__rt_lib_shutdown_heap_1</STRONG> (Thumb, 0 bytes, Stack size unknown bytes, libshutdown2.o(.ARM.Collect$$libshutdown$$00000011))
 
-<P><STRONG><a name="[c7]"></a>__rt_lib_shutdown_return</STRONG> (Thumb, 0 bytes, Stack size unknown bytes, libshutdown2.o(.ARM.Collect$$libshutdown$$00000012))
+<P><STRONG><a name="[ca]"></a>__rt_lib_shutdown_return</STRONG> (Thumb, 0 bytes, Stack size unknown bytes, libshutdown2.o(.ARM.Collect$$libshutdown$$00000012))
 
-<P><STRONG><a name="[c8]"></a>__rt_lib_shutdown_signal_1</STRONG> (Thumb, 0 bytes, Stack size unknown bytes, libshutdown2.o(.ARM.Collect$$libshutdown$$0000000C))
+<P><STRONG><a name="[cb]"></a>__rt_lib_shutdown_signal_1</STRONG> (Thumb, 0 bytes, Stack size unknown bytes, libshutdown2.o(.ARM.Collect$$libshutdown$$0000000C))
 
-<P><STRONG><a name="[c9]"></a>__rt_lib_shutdown_stdio_1</STRONG> (Thumb, 0 bytes, Stack size unknown bytes, libshutdown2.o(.ARM.Collect$$libshutdown$$00000006))
+<P><STRONG><a name="[cc]"></a>__rt_lib_shutdown_stdio_1</STRONG> (Thumb, 0 bytes, Stack size unknown bytes, libshutdown2.o(.ARM.Collect$$libshutdown$$00000006))
 
-<P><STRONG><a name="[ca]"></a>__rt_lib_shutdown_user_alloc_1</STRONG> (Thumb, 0 bytes, Stack size unknown bytes, libshutdown2.o(.ARM.Collect$$libshutdown$$0000000E))
+<P><STRONG><a name="[cd]"></a>__rt_lib_shutdown_user_alloc_1</STRONG> (Thumb, 0 bytes, Stack size unknown bytes, libshutdown2.o(.ARM.Collect$$libshutdown$$0000000E))
 
 <P><STRONG><a name="[50]"></a>__rt_entry</STRONG> (Thumb, 0 bytes, Stack size unknown bytes, __rtentry.o(.ARM.Collect$$rtentry$$00000000))
 <BR><BR>[Called By]<UL><LI><a href="#[4e]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__main
 <LI><a href="#[51]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__scatterload_rt2
 </UL>
 
-<P><STRONG><a name="[cb]"></a>__rt_entry_presh_1</STRONG> (Thumb, 0 bytes, Stack size unknown bytes, __rtentry2.o(.ARM.Collect$$rtentry$$00000002))
+<P><STRONG><a name="[ce]"></a>__rt_entry_presh_1</STRONG> (Thumb, 0 bytes, Stack size unknown bytes, __rtentry2.o(.ARM.Collect$$rtentry$$00000002))
 
 <P><STRONG><a name="[53]"></a>__rt_entry_sh</STRONG> (Thumb, 0 bytes, Stack size unknown bytes, __rtentry4.o(.ARM.Collect$$rtentry$$00000004))
 <BR><BR>[Stack]<UL><LI>Max Depth = 8 + Unknown Stack Size
@@ -212,7 +212,7 @@ Global Symbols
 <BR><BR>[Calls]<UL><LI><a href="#[56]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__rt_lib_init
 </UL>
 
-<P><STRONG><a name="[cc]"></a>__rt_entry_postsh_1</STRONG> (Thumb, 0 bytes, Stack size unknown bytes, __rtentry2.o(.ARM.Collect$$rtentry$$00000009))
+<P><STRONG><a name="[cf]"></a>__rt_entry_postsh_1</STRONG> (Thumb, 0 bytes, Stack size unknown bytes, __rtentry2.o(.ARM.Collect$$rtentry$$00000009))
 
 <P><STRONG><a name="[57]"></a>__rt_entry_main</STRONG> (Thumb, 0 bytes, Stack size unknown bytes, __rtentry2.o(.ARM.Collect$$rtentry$$0000000D))
 <BR><BR>[Stack]<UL><LI>Max Depth = 144 + Unknown Stack Size
@@ -222,9 +222,9 @@ Global Symbols
 <LI><a href="#[59]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;exit
 </UL>
 
-<P><STRONG><a name="[cd]"></a>__rt_entry_postli_1</STRONG> (Thumb, 0 bytes, Stack size unknown bytes, __rtentry2.o(.ARM.Collect$$rtentry$$0000000C))
+<P><STRONG><a name="[d0]"></a>__rt_entry_postli_1</STRONG> (Thumb, 0 bytes, Stack size unknown bytes, __rtentry2.o(.ARM.Collect$$rtentry$$0000000C))
 
-<P><STRONG><a name="[60]"></a>__rt_exit</STRONG> (Thumb, 0 bytes, Stack size unknown bytes, rtexit.o(.ARM.Collect$$rtexit$$00000000))
+<P><STRONG><a name="[62]"></a>__rt_exit</STRONG> (Thumb, 0 bytes, Stack size unknown bytes, rtexit.o(.ARM.Collect$$rtexit$$00000000))
 <BR><BR>[Called By]<UL><LI><a href="#[59]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;exit
 </UL>
 
@@ -232,7 +232,7 @@ Global Symbols
 <BR><BR>[Calls]<UL><LI><a href="#[5b]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__rt_lib_shutdown
 </UL>
 
-<P><STRONG><a name="[ce]"></a>__rt_exit_prels_1</STRONG> (Thumb, 0 bytes, Stack size unknown bytes, rtexit2.o(.ARM.Collect$$rtexit$$00000002))
+<P><STRONG><a name="[d1]"></a>__rt_exit_prels_1</STRONG> (Thumb, 0 bytes, Stack size unknown bytes, rtexit2.o(.ARM.Collect$$rtexit$$00000002))
 
 <P><STRONG><a name="[5c]"></a>__rt_exit_exit</STRONG> (Thumb, 0 bytes, Stack size unknown bytes, rtexit2.o(.ARM.Collect$$rtexit$$00000004))
 <BR><BR>[Calls]<UL><LI><a href="#[5d]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;_sys_exit
@@ -374,23 +374,35 @@ Global Symbols
 <P><STRONG><a name="[15]"></a>WWDG_IRQHandler</STRONG> (Thumb, 0 bytes, Stack size 0 bytes, startup_stm32f103xb.o(.text))
 <BR>[Address Reference Count : 1]<UL><LI> startup_stm32f103xb.o(RESET)
 </UL>
-<P><STRONG><a name="[5f]"></a>__user_initial_stackheap</STRONG> (Thumb, 0 bytes, Stack size unknown bytes, startup_stm32f103xb.o(.text))
+<P><STRONG><a name="[61]"></a>__user_initial_stackheap</STRONG> (Thumb, 0 bytes, Stack size unknown bytes, startup_stm32f103xb.o(.text))
 <BR><BR>[Called By]<UL><LI><a href="#[54]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__user_setup_stackheap
 </UL>
 
-<P><STRONG><a name="[80]"></a>__aeabi_memclr4</STRONG> (Thumb, 0 bytes, Stack size 4 bytes, rt_memclr_w.o(.text))
+<P><STRONG><a name="[a6]"></a>__aeabi_memclr</STRONG> (Thumb, 0 bytes, Stack size 0 bytes, rt_memclr.o(.text))
+<BR><BR>[Called By]<UL><LI><a href="#[a2]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;do_udp
+</UL>
+
+<P><STRONG><a name="[5e]"></a>__rt_memclr</STRONG> (Thumb, 68 bytes, Stack size 0 bytes, rt_memclr.o(.text), UNUSED)
+<BR><BR>[Calls]<UL><LI><a href="#[5f]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;_memset_w
+</UL>
+
+<P><STRONG><a name="[d2]"></a>_memset</STRONG> (Thumb, 0 bytes, Stack size unknown bytes, rt_memclr.o(.text), UNUSED)
+
+<P><STRONG><a name="[82]"></a>__aeabi_memclr4</STRONG> (Thumb, 0 bytes, Stack size 4 bytes, rt_memclr_w.o(.text))
 <BR><BR>[Stack]<UL><LI>Max Depth = 4<LI>Call Chain = __aeabi_memclr4
 </UL>
-<BR>[Called By]<UL><LI><a href="#[7f]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;SystemClock_Config
+<BR>[Called By]<UL><LI><a href="#[81]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;SystemClock_Config
 </UL>
 
-<P><STRONG><a name="[cf]"></a>__aeabi_memclr8</STRONG> (Thumb, 0 bytes, Stack size 4 bytes, rt_memclr_w.o(.text), UNUSED)
+<P><STRONG><a name="[d3]"></a>__aeabi_memclr8</STRONG> (Thumb, 0 bytes, Stack size 4 bytes, rt_memclr_w.o(.text), UNUSED)
 
-<P><STRONG><a name="[d0]"></a>__rt_memclr_w</STRONG> (Thumb, 78 bytes, Stack size 4 bytes, rt_memclr_w.o(.text), UNUSED)
+<P><STRONG><a name="[d4]"></a>__rt_memclr_w</STRONG> (Thumb, 78 bytes, Stack size 4 bytes, rt_memclr_w.o(.text), UNUSED)
 
-<P><STRONG><a name="[d1]"></a>_memset_w</STRONG> (Thumb, 0 bytes, Stack size unknown bytes, rt_memclr_w.o(.text), UNUSED)
+<P><STRONG><a name="[5f]"></a>_memset_w</STRONG> (Thumb, 0 bytes, Stack size unknown bytes, rt_memclr_w.o(.text), UNUSED)
+<BR><BR>[Called By]<UL><LI><a href="#[5e]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__rt_memclr
+</UL>
 
-<P><STRONG><a name="[d2]"></a>__use_two_region_memory</STRONG> (Thumb, 2 bytes, Stack size 0 bytes, heapauxi.o(.text), UNUSED)
+<P><STRONG><a name="[d5]"></a>__use_two_region_memory</STRONG> (Thumb, 2 bytes, Stack size 0 bytes, heapauxi.o(.text), UNUSED)
 
 <P><STRONG><a name="[8]"></a>__rt_heap_escrow</STRONG> (Thumb, 2 bytes, Stack size 0 bytes, heapauxi.o(.text), UNUSED)
 
@@ -400,8 +412,8 @@ Global Symbols
 <BR><BR>[Stack]<UL><LI>Max Depth = 8 + Unknown Stack Size
 <LI>Call Chain = __user_setup_stackheap
 </UL>
-<BR>[Calls]<UL><LI><a href="#[5f]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__user_initial_stackheap
-<LI><a href="#[5e]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__user_perproc_libspace
+<BR>[Calls]<UL><LI><a href="#[61]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__user_initial_stackheap
+<LI><a href="#[60]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__user_perproc_libspace
 </UL>
 <BR>[Called By]<UL><LI><a href="#[53]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__rt_entry_sh
 </UL>
@@ -410,24 +422,24 @@ Global Symbols
 <BR><BR>[Stack]<UL><LI>Max Depth = 8 + Unknown Stack Size
 <LI>Call Chain = exit
 </UL>
-<BR>[Calls]<UL><LI><a href="#[60]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__rt_exit
+<BR>[Calls]<UL><LI><a href="#[62]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__rt_exit
 </UL>
 <BR>[Called By]<UL><LI><a href="#[57]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__rt_entry_main
 </UL>
 
-<P><STRONG><a name="[d3]"></a>__user_libspace</STRONG> (Thumb, 8 bytes, Stack size 0 bytes, libspace.o(.text), UNUSED)
+<P><STRONG><a name="[d6]"></a>__user_libspace</STRONG> (Thumb, 8 bytes, Stack size 0 bytes, libspace.o(.text), UNUSED)
 
-<P><STRONG><a name="[5e]"></a>__user_perproc_libspace</STRONG> (Thumb, 0 bytes, Stack size 0 bytes, libspace.o(.text))
+<P><STRONG><a name="[60]"></a>__user_perproc_libspace</STRONG> (Thumb, 0 bytes, Stack size 0 bytes, libspace.o(.text))
 <BR><BR>[Called By]<UL><LI><a href="#[54]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__user_setup_stackheap
 </UL>
 
-<P><STRONG><a name="[d4]"></a>__user_perthread_libspace</STRONG> (Thumb, 0 bytes, Stack size 0 bytes, libspace.o(.text), UNUSED)
+<P><STRONG><a name="[d7]"></a>__user_perthread_libspace</STRONG> (Thumb, 0 bytes, Stack size 0 bytes, libspace.o(.text), UNUSED)
 
-<P><STRONG><a name="[d5]"></a>__I$use$semihosting</STRONG> (Thumb, 0 bytes, Stack size 0 bytes, use_no_semi.o(.text), UNUSED)
+<P><STRONG><a name="[d8]"></a>__I$use$semihosting</STRONG> (Thumb, 0 bytes, Stack size 0 bytes, use_no_semi.o(.text), UNUSED)
 
-<P><STRONG><a name="[d6]"></a>__use_no_semihosting_swi</STRONG> (Thumb, 2 bytes, Stack size 0 bytes, use_no_semi.o(.text), UNUSED)
+<P><STRONG><a name="[d9]"></a>__use_no_semihosting_swi</STRONG> (Thumb, 2 bytes, Stack size 0 bytes, use_no_semi.o(.text), UNUSED)
 
-<P><STRONG><a name="[d7]"></a>__semihosting_library_function</STRONG> (Thumb, 0 bytes, Stack size unknown bytes, indicate_semi.o(.text), UNUSED)
+<P><STRONG><a name="[da]"></a>__semihosting_library_function</STRONG> (Thumb, 0 bytes, Stack size unknown bytes, indicate_semi.o(.text), UNUSED)
 
 <P><STRONG><a name="[5d]"></a>_sys_exit</STRONG> (Thumb, 8 bytes, Stack size 0 bytes, sys_exit.o(.text))
 <BR><BR>[Called By]<UL><LI><a href="#[5c]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__rt_exit_exit
@@ -443,184 +455,184 @@ Global Symbols
 <P><STRONG><a name="[12]"></a>DebugMon_Handler</STRONG> (Thumb, 2 bytes, Stack size 0 bytes, stm32f1xx_it.o(i.DebugMon_Handler))
 <BR>[Address Reference Count : 1]<UL><LI> startup_stm32f103xb.o(RESET)
 </UL>
-<P><STRONG><a name="[7b]"></a>Error_Handler</STRONG> (Thumb, 4 bytes, Stack size 0 bytes, main.o(i.Error_Handler))
-<BR><BR>[Called By]<UL><LI><a href="#[7c]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;MX_USART1_UART_Init
-<LI><a href="#[7a]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;MX_SPI1_Init
+<P><STRONG><a name="[7d]"></a>Error_Handler</STRONG> (Thumb, 4 bytes, Stack size 0 bytes, main.o(i.Error_Handler))
+<BR><BR>[Called By]<UL><LI><a href="#[7e]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;MX_USART1_UART_Init
+<LI><a href="#[7c]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;MX_SPI1_Init
 </UL>
 
-<P><STRONG><a name="[61]"></a>HAL_Delay</STRONG> (Thumb, 32 bytes, Stack size 16 bytes, stm32f1xx_hal.o(i.HAL_Delay))
+<P><STRONG><a name="[63]"></a>HAL_Delay</STRONG> (Thumb, 32 bytes, Stack size 16 bytes, stm32f1xx_hal.o(i.HAL_Delay))
 <BR><BR>[Stack]<UL><LI>Max Depth = 16<LI>Call Chain = HAL_Delay
 </UL>
-<BR>[Calls]<UL><LI><a href="#[62]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;HAL_GetTick
+<BR>[Calls]<UL><LI><a href="#[64]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;HAL_GetTick
 </UL>
-<BR>[Called By]<UL><LI><a href="#[a0]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;do_udp
-<LI><a href="#[86]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;W5500_Restart
+<BR>[Called By]<UL><LI><a href="#[a2]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;do_udp
+<LI><a href="#[88]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;W5500_Restart
 </UL>
 
-<P><STRONG><a name="[6f]"></a>HAL_GPIO_Init</STRONG> (Thumb, 446 bytes, Stack size 40 bytes, stm32f1xx_hal_gpio.o(i.HAL_GPIO_Init))
+<P><STRONG><a name="[71]"></a>HAL_GPIO_Init</STRONG> (Thumb, 446 bytes, Stack size 40 bytes, stm32f1xx_hal_gpio.o(i.HAL_GPIO_Init))
 <BR><BR>[Stack]<UL><LI>Max Depth = 40<LI>Call Chain = HAL_GPIO_Init
 </UL>
-<BR>[Called By]<UL><LI><a href="#[76]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;HAL_UART_MspInit
-<LI><a href="#[6e]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;HAL_SPI_MspInit
-<LI><a href="#[78]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;MX_GPIO_Init
+<BR>[Called By]<UL><LI><a href="#[78]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;HAL_UART_MspInit
+<LI><a href="#[70]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;HAL_SPI_MspInit
+<LI><a href="#[7a]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;MX_GPIO_Init
 </UL>
 
-<P><STRONG><a name="[79]"></a>HAL_GPIO_WritePin</STRONG> (Thumb, 10 bytes, Stack size 0 bytes, stm32f1xx_hal_gpio.o(i.HAL_GPIO_WritePin))
-<BR><BR>[Called By]<UL><LI><a href="#[78]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;MX_GPIO_Init
+<P><STRONG><a name="[7b]"></a>HAL_GPIO_WritePin</STRONG> (Thumb, 10 bytes, Stack size 0 bytes, stm32f1xx_hal_gpio.o(i.HAL_GPIO_WritePin))
+<BR><BR>[Called By]<UL><LI><a href="#[7a]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;MX_GPIO_Init
 <LI><a href="#[42]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;W5500_Unselect
 <LI><a href="#[43]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;W5500_Select
-<LI><a href="#[86]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;W5500_Restart
+<LI><a href="#[88]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;W5500_Restart
 </UL>
 
-<P><STRONG><a name="[62]"></a>HAL_GetTick</STRONG> (Thumb, 6 bytes, Stack size 0 bytes, stm32f1xx_hal.o(i.HAL_GetTick))
-<BR><BR>[Called By]<UL><LI><a href="#[7d]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;SPI_WaitFlagStateUntilTimeout
-<LI><a href="#[6c]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;HAL_RCC_OscConfig
-<LI><a href="#[6a]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;HAL_RCC_ClockConfig
-<LI><a href="#[61]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;HAL_Delay
-<LI><a href="#[71]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;HAL_SPI_TransmitReceive
-<LI><a href="#[73]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;HAL_SPI_Transmit
-<LI><a href="#[70]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;HAL_SPI_Receive
+<P><STRONG><a name="[64]"></a>HAL_GetTick</STRONG> (Thumb, 6 bytes, Stack size 0 bytes, stm32f1xx_hal.o(i.HAL_GetTick))
+<BR><BR>[Called By]<UL><LI><a href="#[7f]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;SPI_WaitFlagStateUntilTimeout
+<LI><a href="#[6e]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;HAL_RCC_OscConfig
+<LI><a href="#[6c]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;HAL_RCC_ClockConfig
+<LI><a href="#[63]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;HAL_Delay
+<LI><a href="#[73]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;HAL_SPI_TransmitReceive
+<LI><a href="#[75]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;HAL_SPI_Transmit
+<LI><a href="#[72]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;HAL_SPI_Receive
 </UL>
 
-<P><STRONG><a name="[7e]"></a>HAL_IncTick</STRONG> (Thumb, 12 bytes, Stack size 0 bytes, stm32f1xx_hal.o(i.HAL_IncTick))
+<P><STRONG><a name="[80]"></a>HAL_IncTick</STRONG> (Thumb, 12 bytes, Stack size 0 bytes, stm32f1xx_hal.o(i.HAL_IncTick))
 <BR><BR>[Called By]<UL><LI><a href="#[14]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;SysTick_Handler
 </UL>
 
-<P><STRONG><a name="[63]"></a>HAL_Init</STRONG> (Thumb, 32 bytes, Stack size 8 bytes, stm32f1xx_hal.o(i.HAL_Init))
+<P><STRONG><a name="[65]"></a>HAL_Init</STRONG> (Thumb, 32 bytes, Stack size 8 bytes, stm32f1xx_hal.o(i.HAL_Init))
 <BR><BR>[Stack]<UL><LI>Max Depth = 40<LI>Call Chain = HAL_Init &rArr; HAL_InitTick &rArr; HAL_NVIC_SetPriority
 </UL>
-<BR>[Calls]<UL><LI><a href="#[66]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;HAL_MspInit
-<LI><a href="#[65]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;HAL_InitTick
-<LI><a href="#[64]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;HAL_NVIC_SetPriorityGrouping
+<BR>[Calls]<UL><LI><a href="#[68]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;HAL_MspInit
+<LI><a href="#[67]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;HAL_InitTick
+<LI><a href="#[66]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;HAL_NVIC_SetPriorityGrouping
 </UL>
 <BR>[Called By]<UL><LI><a href="#[58]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;main
 </UL>
 
-<P><STRONG><a name="[65]"></a>HAL_InitTick</STRONG> (Thumb, 54 bytes, Stack size 16 bytes, stm32f1xx_hal.o(i.HAL_InitTick))
+<P><STRONG><a name="[67]"></a>HAL_InitTick</STRONG> (Thumb, 54 bytes, Stack size 16 bytes, stm32f1xx_hal.o(i.HAL_InitTick))
 <BR><BR>[Stack]<UL><LI>Max Depth = 32<LI>Call Chain = HAL_InitTick &rArr; HAL_NVIC_SetPriority
 </UL>
-<BR>[Calls]<UL><LI><a href="#[67]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;HAL_SYSTICK_Config
-<LI><a href="#[68]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;HAL_NVIC_SetPriority
+<BR>[Calls]<UL><LI><a href="#[69]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;HAL_SYSTICK_Config
+<LI><a href="#[6a]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;HAL_NVIC_SetPriority
 </UL>
-<BR>[Called By]<UL><LI><a href="#[6a]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;HAL_RCC_ClockConfig
-<LI><a href="#[63]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;HAL_Init
+<BR>[Called By]<UL><LI><a href="#[6c]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;HAL_RCC_ClockConfig
+<LI><a href="#[65]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;HAL_Init
 </UL>
 
-<P><STRONG><a name="[66]"></a>HAL_MspInit</STRONG> (Thumb, 52 bytes, Stack size 8 bytes, stm32f1xx_hal_msp.o(i.HAL_MspInit))
+<P><STRONG><a name="[68]"></a>HAL_MspInit</STRONG> (Thumb, 52 bytes, Stack size 8 bytes, stm32f1xx_hal_msp.o(i.HAL_MspInit))
 <BR><BR>[Stack]<UL><LI>Max Depth = 8<LI>Call Chain = HAL_MspInit
 </UL>
-<BR>[Called By]<UL><LI><a href="#[63]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;HAL_Init
+<BR>[Called By]<UL><LI><a href="#[65]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;HAL_Init
 </UL>
 
-<P><STRONG><a name="[68]"></a>HAL_NVIC_SetPriority</STRONG> (Thumb, 60 bytes, Stack size 16 bytes, stm32f1xx_hal_cortex.o(i.HAL_NVIC_SetPriority))
+<P><STRONG><a name="[6a]"></a>HAL_NVIC_SetPriority</STRONG> (Thumb, 60 bytes, Stack size 16 bytes, stm32f1xx_hal_cortex.o(i.HAL_NVIC_SetPriority))
 <BR><BR>[Stack]<UL><LI>Max Depth = 16<LI>Call Chain = HAL_NVIC_SetPriority
 </UL>
-<BR>[Calls]<UL><LI><a href="#[69]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__NVIC_SetPriority
+<BR>[Calls]<UL><LI><a href="#[6b]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__NVIC_SetPriority
 </UL>
-<BR>[Called By]<UL><LI><a href="#[65]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;HAL_InitTick
-</UL>
-
-<P><STRONG><a name="[64]"></a>HAL_NVIC_SetPriorityGrouping</STRONG> (Thumb, 26 bytes, Stack size 0 bytes, stm32f1xx_hal_cortex.o(i.HAL_NVIC_SetPriorityGrouping))
-<BR><BR>[Called By]<UL><LI><a href="#[63]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;HAL_Init
+<BR>[Called By]<UL><LI><a href="#[67]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;HAL_InitTick
 </UL>
 
-<P><STRONG><a name="[6a]"></a>HAL_RCC_ClockConfig</STRONG> (Thumb, 280 bytes, Stack size 32 bytes, stm32f1xx_hal_rcc.o(i.HAL_RCC_ClockConfig))
+<P><STRONG><a name="[66]"></a>HAL_NVIC_SetPriorityGrouping</STRONG> (Thumb, 26 bytes, Stack size 0 bytes, stm32f1xx_hal_cortex.o(i.HAL_NVIC_SetPriorityGrouping))
+<BR><BR>[Called By]<UL><LI><a href="#[65]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;HAL_Init
+</UL>
+
+<P><STRONG><a name="[6c]"></a>HAL_RCC_ClockConfig</STRONG> (Thumb, 280 bytes, Stack size 32 bytes, stm32f1xx_hal_rcc.o(i.HAL_RCC_ClockConfig))
 <BR><BR>[Stack]<UL><LI>Max Depth = 64<LI>Call Chain = HAL_RCC_ClockConfig &rArr; HAL_InitTick &rArr; HAL_NVIC_SetPriority
 </UL>
-<BR>[Calls]<UL><LI><a href="#[6b]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;HAL_RCC_GetSysClockFreq
-<LI><a href="#[65]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;HAL_InitTick
-<LI><a href="#[62]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;HAL_GetTick
+<BR>[Calls]<UL><LI><a href="#[6d]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;HAL_RCC_GetSysClockFreq
+<LI><a href="#[67]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;HAL_InitTick
+<LI><a href="#[64]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;HAL_GetTick
 </UL>
-<BR>[Called By]<UL><LI><a href="#[7f]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;SystemClock_Config
-</UL>
-
-<P><STRONG><a name="[82]"></a>HAL_RCC_GetPCLK1Freq</STRONG> (Thumb, 20 bytes, Stack size 0 bytes, stm32f1xx_hal_rcc.o(i.HAL_RCC_GetPCLK1Freq))
-<BR><BR>[Called By]<UL><LI><a href="#[77]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;UART_SetConfig
+<BR>[Called By]<UL><LI><a href="#[81]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;SystemClock_Config
 </UL>
 
-<P><STRONG><a name="[81]"></a>HAL_RCC_GetPCLK2Freq</STRONG> (Thumb, 20 bytes, Stack size 0 bytes, stm32f1xx_hal_rcc.o(i.HAL_RCC_GetPCLK2Freq))
-<BR><BR>[Called By]<UL><LI><a href="#[77]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;UART_SetConfig
+<P><STRONG><a name="[84]"></a>HAL_RCC_GetPCLK1Freq</STRONG> (Thumb, 20 bytes, Stack size 0 bytes, stm32f1xx_hal_rcc.o(i.HAL_RCC_GetPCLK1Freq))
+<BR><BR>[Called By]<UL><LI><a href="#[79]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;UART_SetConfig
 </UL>
 
-<P><STRONG><a name="[6b]"></a>HAL_RCC_GetSysClockFreq</STRONG> (Thumb, 58 bytes, Stack size 0 bytes, stm32f1xx_hal_rcc.o(i.HAL_RCC_GetSysClockFreq))
-<BR><BR>[Called By]<UL><LI><a href="#[6a]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;HAL_RCC_ClockConfig
+<P><STRONG><a name="[83]"></a>HAL_RCC_GetPCLK2Freq</STRONG> (Thumb, 20 bytes, Stack size 0 bytes, stm32f1xx_hal_rcc.o(i.HAL_RCC_GetPCLK2Freq))
+<BR><BR>[Called By]<UL><LI><a href="#[79]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;UART_SetConfig
 </UL>
 
-<P><STRONG><a name="[6c]"></a>HAL_RCC_OscConfig</STRONG> (Thumb, 778 bytes, Stack size 40 bytes, stm32f1xx_hal_rcc.o(i.HAL_RCC_OscConfig))
+<P><STRONG><a name="[6d]"></a>HAL_RCC_GetSysClockFreq</STRONG> (Thumb, 58 bytes, Stack size 0 bytes, stm32f1xx_hal_rcc.o(i.HAL_RCC_GetSysClockFreq))
+<BR><BR>[Called By]<UL><LI><a href="#[6c]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;HAL_RCC_ClockConfig
+</UL>
+
+<P><STRONG><a name="[6e]"></a>HAL_RCC_OscConfig</STRONG> (Thumb, 778 bytes, Stack size 40 bytes, stm32f1xx_hal_rcc.o(i.HAL_RCC_OscConfig))
 <BR><BR>[Stack]<UL><LI>Max Depth = 40<LI>Call Chain = HAL_RCC_OscConfig
 </UL>
-<BR>[Calls]<UL><LI><a href="#[62]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;HAL_GetTick
+<BR>[Calls]<UL><LI><a href="#[64]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;HAL_GetTick
 </UL>
-<BR>[Called By]<UL><LI><a href="#[7f]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;SystemClock_Config
+<BR>[Called By]<UL><LI><a href="#[81]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;SystemClock_Config
 </UL>
 
-<P><STRONG><a name="[6d]"></a>HAL_SPI_Init</STRONG> (Thumb, 178 bytes, Stack size 16 bytes, stm32f1xx_hal_spi.o(i.HAL_SPI_Init))
+<P><STRONG><a name="[6f]"></a>HAL_SPI_Init</STRONG> (Thumb, 178 bytes, Stack size 16 bytes, stm32f1xx_hal_spi.o(i.HAL_SPI_Init))
 <BR><BR>[Stack]<UL><LI>Max Depth = 88<LI>Call Chain = HAL_SPI_Init &rArr; HAL_SPI_MspInit &rArr; HAL_GPIO_Init
 </UL>
-<BR>[Calls]<UL><LI><a href="#[6e]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;HAL_SPI_MspInit
+<BR>[Calls]<UL><LI><a href="#[70]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;HAL_SPI_MspInit
 </UL>
-<BR>[Called By]<UL><LI><a href="#[7a]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;MX_SPI1_Init
+<BR>[Called By]<UL><LI><a href="#[7c]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;MX_SPI1_Init
 </UL>
 
-<P><STRONG><a name="[6e]"></a>HAL_SPI_MspInit</STRONG> (Thumb, 98 bytes, Stack size 32 bytes, spi.o(i.HAL_SPI_MspInit))
+<P><STRONG><a name="[70]"></a>HAL_SPI_MspInit</STRONG> (Thumb, 98 bytes, Stack size 32 bytes, spi.o(i.HAL_SPI_MspInit))
 <BR><BR>[Stack]<UL><LI>Max Depth = 72<LI>Call Chain = HAL_SPI_MspInit &rArr; HAL_GPIO_Init
 </UL>
-<BR>[Calls]<UL><LI><a href="#[6f]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;HAL_GPIO_Init
+<BR>[Calls]<UL><LI><a href="#[71]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;HAL_GPIO_Init
 </UL>
-<BR>[Called By]<UL><LI><a href="#[6d]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;HAL_SPI_Init
+<BR>[Called By]<UL><LI><a href="#[6f]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;HAL_SPI_Init
 </UL>
 
-<P><STRONG><a name="[70]"></a>HAL_SPI_Receive</STRONG> (Thumb, 342 bytes, Stack size 40 bytes, stm32f1xx_hal_spi.o(i.HAL_SPI_Receive))
+<P><STRONG><a name="[72]"></a>HAL_SPI_Receive</STRONG> (Thumb, 342 bytes, Stack size 40 bytes, stm32f1xx_hal_spi.o(i.HAL_SPI_Receive))
 <BR><BR>[Stack]<UL><LI>Max Depth = 144<LI>Call Chain = HAL_SPI_Receive &rArr; HAL_SPI_TransmitReceive &rArr; SPI_EndRxTxTransaction &rArr; SPI_WaitFlagStateUntilTimeout
 </UL>
-<BR>[Calls]<UL><LI><a href="#[72]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;SPI_EndRxTransaction
-<LI><a href="#[62]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;HAL_GetTick
-<LI><a href="#[71]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;HAL_SPI_TransmitReceive
+<BR>[Calls]<UL><LI><a href="#[74]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;SPI_EndRxTransaction
+<LI><a href="#[64]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;HAL_GetTick
+<LI><a href="#[73]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;HAL_SPI_TransmitReceive
 </UL>
-<BR>[Called By]<UL><LI><a href="#[89]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;W5500_ReadBuff
+<BR>[Called By]<UL><LI><a href="#[8b]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;W5500_ReadBuff
 </UL>
 
-<P><STRONG><a name="[73]"></a>HAL_SPI_Transmit</STRONG> (Thumb, 366 bytes, Stack size 40 bytes, stm32f1xx_hal_spi.o(i.HAL_SPI_Transmit))
+<P><STRONG><a name="[75]"></a>HAL_SPI_Transmit</STRONG> (Thumb, 366 bytes, Stack size 40 bytes, stm32f1xx_hal_spi.o(i.HAL_SPI_Transmit))
 <BR><BR>[Stack]<UL><LI>Max Depth = 88<LI>Call Chain = HAL_SPI_Transmit &rArr; SPI_EndRxTxTransaction &rArr; SPI_WaitFlagStateUntilTimeout
 </UL>
-<BR>[Calls]<UL><LI><a href="#[74]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;SPI_EndRxTxTransaction
-<LI><a href="#[62]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;HAL_GetTick
+<BR>[Calls]<UL><LI><a href="#[76]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;SPI_EndRxTxTransaction
+<LI><a href="#[64]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;HAL_GetTick
 </UL>
-<BR>[Called By]<UL><LI><a href="#[8a]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;W5500_WriteBuff
+<BR>[Called By]<UL><LI><a href="#[8c]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;W5500_WriteBuff
 </UL>
 
-<P><STRONG><a name="[71]"></a>HAL_SPI_TransmitReceive</STRONG> (Thumb, 494 bytes, Stack size 56 bytes, stm32f1xx_hal_spi.o(i.HAL_SPI_TransmitReceive))
+<P><STRONG><a name="[73]"></a>HAL_SPI_TransmitReceive</STRONG> (Thumb, 494 bytes, Stack size 56 bytes, stm32f1xx_hal_spi.o(i.HAL_SPI_TransmitReceive))
 <BR><BR>[Stack]<UL><LI>Max Depth = 104<LI>Call Chain = HAL_SPI_TransmitReceive &rArr; SPI_EndRxTxTransaction &rArr; SPI_WaitFlagStateUntilTimeout
 </UL>
-<BR>[Calls]<UL><LI><a href="#[74]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;SPI_EndRxTxTransaction
-<LI><a href="#[62]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;HAL_GetTick
+<BR>[Calls]<UL><LI><a href="#[76]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;SPI_EndRxTxTransaction
+<LI><a href="#[64]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;HAL_GetTick
 </UL>
-<BR>[Called By]<UL><LI><a href="#[70]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;HAL_SPI_Receive
+<BR>[Called By]<UL><LI><a href="#[72]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;HAL_SPI_Receive
 </UL>
 
-<P><STRONG><a name="[67]"></a>HAL_SYSTICK_Config</STRONG> (Thumb, 40 bytes, Stack size 8 bytes, stm32f1xx_hal_cortex.o(i.HAL_SYSTICK_Config))
+<P><STRONG><a name="[69]"></a>HAL_SYSTICK_Config</STRONG> (Thumb, 40 bytes, Stack size 8 bytes, stm32f1xx_hal_cortex.o(i.HAL_SYSTICK_Config))
 <BR><BR>[Stack]<UL><LI>Max Depth = 8<LI>Call Chain = HAL_SYSTICK_Config
 </UL>
-<BR>[Calls]<UL><LI><a href="#[69]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__NVIC_SetPriority
+<BR>[Calls]<UL><LI><a href="#[6b]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__NVIC_SetPriority
 </UL>
-<BR>[Called By]<UL><LI><a href="#[65]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;HAL_InitTick
+<BR>[Called By]<UL><LI><a href="#[67]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;HAL_InitTick
 </UL>
 
-<P><STRONG><a name="[75]"></a>HAL_UART_Init</STRONG> (Thumb, 100 bytes, Stack size 16 bytes, stm32f1xx_hal_uart.o(i.HAL_UART_Init))
+<P><STRONG><a name="[77]"></a>HAL_UART_Init</STRONG> (Thumb, 100 bytes, Stack size 16 bytes, stm32f1xx_hal_uart.o(i.HAL_UART_Init))
 <BR><BR>[Stack]<UL><LI>Max Depth = 88<LI>Call Chain = HAL_UART_Init &rArr; HAL_UART_MspInit &rArr; HAL_GPIO_Init
 </UL>
-<BR>[Calls]<UL><LI><a href="#[76]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;HAL_UART_MspInit
-<LI><a href="#[77]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;UART_SetConfig
+<BR>[Calls]<UL><LI><a href="#[78]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;HAL_UART_MspInit
+<LI><a href="#[79]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;UART_SetConfig
 </UL>
-<BR>[Called By]<UL><LI><a href="#[7c]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;MX_USART1_UART_Init
+<BR>[Called By]<UL><LI><a href="#[7e]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;MX_USART1_UART_Init
 </UL>
 
-<P><STRONG><a name="[76]"></a>HAL_UART_MspInit</STRONG> (Thumb, 100 bytes, Stack size 32 bytes, usart.o(i.HAL_UART_MspInit))
+<P><STRONG><a name="[78]"></a>HAL_UART_MspInit</STRONG> (Thumb, 100 bytes, Stack size 32 bytes, usart.o(i.HAL_UART_MspInit))
 <BR><BR>[Stack]<UL><LI>Max Depth = 72<LI>Call Chain = HAL_UART_MspInit &rArr; HAL_GPIO_Init
 </UL>
-<BR>[Calls]<UL><LI><a href="#[6f]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;HAL_GPIO_Init
+<BR>[Calls]<UL><LI><a href="#[71]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;HAL_GPIO_Init
 </UL>
-<BR>[Called By]<UL><LI><a href="#[75]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;HAL_UART_Init
+<BR>[Called By]<UL><LI><a href="#[77]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;HAL_UART_Init
 </UL>
 
 <P><STRONG><a name="[d]"></a>HardFault_Handler</STRONG> (Thumb, 2 bytes, Stack size 0 bytes, stm32f1xx_it.o(i.HardFault_Handler))
@@ -630,29 +642,29 @@ Global Symbols
 </UL>
 <BR>[Address Reference Count : 1]<UL><LI> startup_stm32f103xb.o(RESET)
 </UL>
-<P><STRONG><a name="[78]"></a>MX_GPIO_Init</STRONG> (Thumb, 170 bytes, Stack size 48 bytes, gpio.o(i.MX_GPIO_Init))
+<P><STRONG><a name="[7a]"></a>MX_GPIO_Init</STRONG> (Thumb, 170 bytes, Stack size 48 bytes, gpio.o(i.MX_GPIO_Init))
 <BR><BR>[Stack]<UL><LI>Max Depth = 88<LI>Call Chain = MX_GPIO_Init &rArr; HAL_GPIO_Init
 </UL>
-<BR>[Calls]<UL><LI><a href="#[79]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;HAL_GPIO_WritePin
-<LI><a href="#[6f]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;HAL_GPIO_Init
+<BR>[Calls]<UL><LI><a href="#[7b]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;HAL_GPIO_WritePin
+<LI><a href="#[71]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;HAL_GPIO_Init
 </UL>
 <BR>[Called By]<UL><LI><a href="#[58]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;main
 </UL>
 
-<P><STRONG><a name="[7a]"></a>MX_SPI1_Init</STRONG> (Thumb, 62 bytes, Stack size 8 bytes, spi.o(i.MX_SPI1_Init))
+<P><STRONG><a name="[7c]"></a>MX_SPI1_Init</STRONG> (Thumb, 62 bytes, Stack size 8 bytes, spi.o(i.MX_SPI1_Init))
 <BR><BR>[Stack]<UL><LI>Max Depth = 96<LI>Call Chain = MX_SPI1_Init &rArr; HAL_SPI_Init &rArr; HAL_SPI_MspInit &rArr; HAL_GPIO_Init
 </UL>
-<BR>[Calls]<UL><LI><a href="#[6d]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;HAL_SPI_Init
-<LI><a href="#[7b]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;Error_Handler
+<BR>[Calls]<UL><LI><a href="#[6f]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;HAL_SPI_Init
+<LI><a href="#[7d]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;Error_Handler
 </UL>
 <BR>[Called By]<UL><LI><a href="#[58]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;main
 </UL>
 
-<P><STRONG><a name="[7c]"></a>MX_USART1_UART_Init</STRONG> (Thumb, 48 bytes, Stack size 8 bytes, usart.o(i.MX_USART1_UART_Init))
+<P><STRONG><a name="[7e]"></a>MX_USART1_UART_Init</STRONG> (Thumb, 48 bytes, Stack size 8 bytes, usart.o(i.MX_USART1_UART_Init))
 <BR><BR>[Stack]<UL><LI>Max Depth = 96<LI>Call Chain = MX_USART1_UART_Init &rArr; HAL_UART_Init &rArr; HAL_UART_MspInit &rArr; HAL_GPIO_Init
 </UL>
-<BR>[Calls]<UL><LI><a href="#[75]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;HAL_UART_Init
-<LI><a href="#[7b]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;Error_Handler
+<BR>[Calls]<UL><LI><a href="#[77]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;HAL_UART_Init
+<LI><a href="#[7d]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;Error_Handler
 </UL>
 <BR>[Called By]<UL><LI><a href="#[58]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;main
 </UL>
@@ -678,16 +690,16 @@ Global Symbols
 <BR>[Address Reference Count : 1]<UL><LI> startup_stm32f103xb.o(RESET)
 </UL>
 <P><STRONG><a name="[14]"></a>SysTick_Handler</STRONG> (Thumb, 4 bytes, Stack size 0 bytes, stm32f1xx_it.o(i.SysTick_Handler))
-<BR><BR>[Calls]<UL><LI><a href="#[7e]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;HAL_IncTick
+<BR><BR>[Calls]<UL><LI><a href="#[80]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;HAL_IncTick
 </UL>
 <BR>[Address Reference Count : 1]<UL><LI> startup_stm32f103xb.o(RESET)
 </UL>
-<P><STRONG><a name="[7f]"></a>SystemClock_Config</STRONG> (Thumb, 94 bytes, Stack size 72 bytes, main.o(i.SystemClock_Config))
+<P><STRONG><a name="[81]"></a>SystemClock_Config</STRONG> (Thumb, 94 bytes, Stack size 72 bytes, main.o(i.SystemClock_Config))
 <BR><BR>[Stack]<UL><LI>Max Depth = 136<LI>Call Chain = SystemClock_Config &rArr; HAL_RCC_ClockConfig &rArr; HAL_InitTick &rArr; HAL_NVIC_SetPriority
 </UL>
-<BR>[Calls]<UL><LI><a href="#[6c]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;HAL_RCC_OscConfig
-<LI><a href="#[6a]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;HAL_RCC_ClockConfig
-<LI><a href="#[80]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__aeabi_memclr4
+<BR>[Calls]<UL><LI><a href="#[6e]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;HAL_RCC_OscConfig
+<LI><a href="#[6c]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;HAL_RCC_ClockConfig
+<LI><a href="#[82]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__aeabi_memclr4
 </UL>
 <BR>[Called By]<UL><LI><a href="#[58]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;main
 </UL>
@@ -695,14 +707,14 @@ Global Symbols
 <P><STRONG><a name="[40]"></a>SystemInit</STRONG> (Thumb, 2 bytes, Stack size 0 bytes, system_stm32f1xx.o(i.SystemInit))
 <BR>[Address Reference Count : 1]<UL><LI> startup_stm32f103xb.o(.text)
 </UL>
-<P><STRONG><a name="[83]"></a>UDPinit</STRONG> (Thumb, 56 bytes, Stack size 24 bytes, myudp.o(i.UDPinit))
+<P><STRONG><a name="[85]"></a>UDPinit</STRONG> (Thumb, 56 bytes, Stack size 24 bytes, myudp.o(i.UDPinit))
 <BR><BR>[Stack]<UL><LI>Max Depth = 144<LI>Call Chain = UDPinit &rArr; ctlwizchip &rArr; wizchip_init &rArr; wizchip_sw_reset &rArr; WIZCHIP_READ_BUF
 </UL>
-<BR>[Calls]<UL><LI><a href="#[86]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;W5500_Restart
-<LI><a href="#[85]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;reg_wizchip_spi_cbfunc
-<LI><a href="#[84]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;reg_wizchip_cs_cbfunc
-<LI><a href="#[88]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;ctlwizchip
-<LI><a href="#[87]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;ctlnetwork
+<BR>[Calls]<UL><LI><a href="#[88]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;W5500_Restart
+<LI><a href="#[87]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;reg_wizchip_spi_cbfunc
+<LI><a href="#[86]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;reg_wizchip_cs_cbfunc
+<LI><a href="#[8a]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;ctlwizchip
+<LI><a href="#[89]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;ctlnetwork
 </UL>
 <BR>[Called By]<UL><LI><a href="#[58]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;main
 </UL>
@@ -714,10 +726,10 @@ Global Symbols
 </UL>
 <BR>[Address Reference Count : 1]<UL><LI> startup_stm32f103xb.o(RESET)
 </UL>
-<P><STRONG><a name="[89]"></a>W5500_ReadBuff</STRONG> (Thumb, 14 bytes, Stack size 0 bytes, myudp.o(i.W5500_ReadBuff))
+<P><STRONG><a name="[8b]"></a>W5500_ReadBuff</STRONG> (Thumb, 14 bytes, Stack size 0 bytes, myudp.o(i.W5500_ReadBuff))
 <BR><BR>[Stack]<UL><LI>Max Depth = 144<LI>Call Chain = W5500_ReadBuff &rArr; HAL_SPI_Receive &rArr; HAL_SPI_TransmitReceive &rArr; SPI_EndRxTxTransaction &rArr; SPI_WaitFlagStateUntilTimeout
 </UL>
-<BR>[Calls]<UL><LI><a href="#[70]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;HAL_SPI_Receive
+<BR>[Calls]<UL><LI><a href="#[72]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;HAL_SPI_Receive
 </UL>
 <BR>[Called By]<UL><LI><a href="#[45]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;W5500_ReadByte
 </UL>
@@ -725,33 +737,33 @@ Global Symbols
 <P><STRONG><a name="[45]"></a>W5500_ReadByte</STRONG> (Thumb, 16 bytes, Stack size 8 bytes, myudp.o(i.W5500_ReadByte))
 <BR><BR>[Stack]<UL><LI>Max Depth = 152<LI>Call Chain = W5500_ReadByte &rArr; W5500_ReadBuff &rArr; HAL_SPI_Receive &rArr; HAL_SPI_TransmitReceive &rArr; SPI_EndRxTxTransaction &rArr; SPI_WaitFlagStateUntilTimeout
 </UL>
-<BR>[Calls]<UL><LI><a href="#[89]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;W5500_ReadBuff
+<BR>[Calls]<UL><LI><a href="#[8b]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;W5500_ReadBuff
 </UL>
 <BR>[Address Reference Count : 1]<UL><LI> myudp.o(i.UDPinit)
 </UL>
-<P><STRONG><a name="[86]"></a>W5500_Restart</STRONG> (Thumb, 42 bytes, Stack size 8 bytes, myudp.o(i.W5500_Restart))
+<P><STRONG><a name="[88]"></a>W5500_Restart</STRONG> (Thumb, 42 bytes, Stack size 8 bytes, myudp.o(i.W5500_Restart))
 <BR><BR>[Stack]<UL><LI>Max Depth = 24<LI>Call Chain = W5500_Restart &rArr; HAL_Delay
 </UL>
-<BR>[Calls]<UL><LI><a href="#[79]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;HAL_GPIO_WritePin
-<LI><a href="#[61]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;HAL_Delay
+<BR>[Calls]<UL><LI><a href="#[7b]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;HAL_GPIO_WritePin
+<LI><a href="#[63]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;HAL_Delay
 </UL>
-<BR>[Called By]<UL><LI><a href="#[83]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;UDPinit
+<BR>[Called By]<UL><LI><a href="#[85]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;UDPinit
 </UL>
 
 <P><STRONG><a name="[43]"></a>W5500_Select</STRONG> (Thumb, 10 bytes, Stack size 0 bytes, myudp.o(i.W5500_Select))
-<BR><BR>[Calls]<UL><LI><a href="#[79]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;HAL_GPIO_WritePin
+<BR><BR>[Calls]<UL><LI><a href="#[7b]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;HAL_GPIO_WritePin
 </UL>
 <BR>[Address Reference Count : 1]<UL><LI> myudp.o(i.UDPinit)
 </UL>
 <P><STRONG><a name="[42]"></a>W5500_Unselect</STRONG> (Thumb, 10 bytes, Stack size 0 bytes, myudp.o(i.W5500_Unselect))
-<BR><BR>[Calls]<UL><LI><a href="#[79]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;HAL_GPIO_WritePin
+<BR><BR>[Calls]<UL><LI><a href="#[7b]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;HAL_GPIO_WritePin
 </UL>
 <BR>[Address Reference Count : 1]<UL><LI> myudp.o(i.UDPinit)
 </UL>
-<P><STRONG><a name="[8a]"></a>W5500_WriteBuff</STRONG> (Thumb, 14 bytes, Stack size 0 bytes, myudp.o(i.W5500_WriteBuff))
+<P><STRONG><a name="[8c]"></a>W5500_WriteBuff</STRONG> (Thumb, 14 bytes, Stack size 0 bytes, myudp.o(i.W5500_WriteBuff))
 <BR><BR>[Stack]<UL><LI>Max Depth = 88<LI>Call Chain = W5500_WriteBuff &rArr; HAL_SPI_Transmit &rArr; SPI_EndRxTxTransaction &rArr; SPI_WaitFlagStateUntilTimeout
 </UL>
-<BR>[Calls]<UL><LI><a href="#[73]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;HAL_SPI_Transmit
+<BR>[Calls]<UL><LI><a href="#[75]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;HAL_SPI_Transmit
 </UL>
 <BR>[Called By]<UL><LI><a href="#[44]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;W5500_WriteByte
 </UL>
@@ -759,240 +771,241 @@ Global Symbols
 <P><STRONG><a name="[44]"></a>W5500_WriteByte</STRONG> (Thumb, 12 bytes, Stack size 8 bytes, myudp.o(i.W5500_WriteByte))
 <BR><BR>[Stack]<UL><LI>Max Depth = 96<LI>Call Chain = W5500_WriteByte &rArr; W5500_WriteBuff &rArr; HAL_SPI_Transmit &rArr; SPI_EndRxTxTransaction &rArr; SPI_WaitFlagStateUntilTimeout
 </UL>
-<BR>[Calls]<UL><LI><a href="#[8a]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;W5500_WriteBuff
+<BR>[Calls]<UL><LI><a href="#[8c]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;W5500_WriteBuff
 </UL>
 <BR>[Address Reference Count : 1]<UL><LI> myudp.o(i.UDPinit)
 </UL>
-<P><STRONG><a name="[8d]"></a>WIZCHIP_READ</STRONG> (Thumb, 84 bytes, Stack size 24 bytes, w5500.o(i.WIZCHIP_READ))
+<P><STRONG><a name="[8f]"></a>WIZCHIP_READ</STRONG> (Thumb, 84 bytes, Stack size 24 bytes, w5500.o(i.WIZCHIP_READ))
 <BR><BR>[Stack]<UL><LI>Max Depth = 24<LI>Call Chain = WIZCHIP_READ
 </UL>
-<BR>[Called By]<UL><LI><a href="#[a0]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;do_udp
-<LI><a href="#[a9]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;wiz_send_data
-<LI><a href="#[a6]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;wiz_recv_ignore
-<LI><a href="#[a7]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;wiz_recv_data
-<LI><a href="#[a5]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;getSn_TX_FSR
-<LI><a href="#[a1]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;getSn_RX_RSR
-<LI><a href="#[a4]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;socket
-<LI><a href="#[a3]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;sendto
-<LI><a href="#[a2]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;recvfrom
-<LI><a href="#[8b]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;close
-<LI><a href="#[9d]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;wizphy_setphypmode
-<LI><a href="#[9a]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;wizphy_reset
-<LI><a href="#[9e]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;wizphy_getphypmode
-<LI><a href="#[9f]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;wizphy_getphylink
-<LI><a href="#[9c]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;wizphy_getphyconf
-<LI><a href="#[94]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;wizchip_sw_reset
-<LI><a href="#[90]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;wizchip_setnetmode
-<LI><a href="#[93]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;wizchip_gettimeout
-<LI><a href="#[91]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;wizchip_getnetmode
-<LI><a href="#[99]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;wizchip_getinterruptmask
-<LI><a href="#[97]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;wizchip_getinterrupt
-<LI><a href="#[88]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;ctlwizchip
+<BR>[Called By]<UL><LI><a href="#[a2]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;do_udp
+<LI><a href="#[ac]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;wiz_send_data
+<LI><a href="#[a9]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;wiz_recv_ignore
+<LI><a href="#[aa]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;wiz_recv_data
+<LI><a href="#[a8]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;getSn_TX_FSR
+<LI><a href="#[a3]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;getSn_RX_RSR
+<LI><a href="#[a7]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;socket
+<LI><a href="#[a5]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;sendto
+<LI><a href="#[a4]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;recvfrom
+<LI><a href="#[8d]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;close
+<LI><a href="#[9f]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;wizphy_setphypmode
+<LI><a href="#[9c]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;wizphy_reset
+<LI><a href="#[a0]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;wizphy_getphypmode
+<LI><a href="#[a1]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;wizphy_getphylink
+<LI><a href="#[9e]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;wizphy_getphyconf
+<LI><a href="#[96]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;wizchip_sw_reset
+<LI><a href="#[92]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;wizchip_setnetmode
+<LI><a href="#[95]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;wizchip_gettimeout
+<LI><a href="#[93]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;wizchip_getnetmode
+<LI><a href="#[9b]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;wizchip_getinterruptmask
+<LI><a href="#[99]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;wizchip_getinterrupt
+<LI><a href="#[8a]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;ctlwizchip
 </UL>
 
-<P><STRONG><a name="[aa]"></a>WIZCHIP_READ_BUF</STRONG> (Thumb, 112 bytes, Stack size 32 bytes, w5500.o(i.WIZCHIP_READ_BUF))
+<P><STRONG><a name="[ad]"></a>WIZCHIP_READ_BUF</STRONG> (Thumb, 112 bytes, Stack size 32 bytes, w5500.o(i.WIZCHIP_READ_BUF))
 <BR><BR>[Stack]<UL><LI>Max Depth = 32<LI>Call Chain = WIZCHIP_READ_BUF
 </UL>
-<BR>[Called By]<UL><LI><a href="#[a7]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;wiz_recv_data
-<LI><a href="#[a4]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;socket
-<LI><a href="#[94]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;wizchip_sw_reset
-<LI><a href="#[8f]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;wizchip_getnetinfo
+<BR>[Called By]<UL><LI><a href="#[aa]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;wiz_recv_data
+<LI><a href="#[a7]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;socket
+<LI><a href="#[96]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;wizchip_sw_reset
+<LI><a href="#[91]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;wizchip_getnetinfo
 </UL>
 
-<P><STRONG><a name="[8c]"></a>WIZCHIP_WRITE</STRONG> (Thumb, 90 bytes, Stack size 24 bytes, w5500.o(i.WIZCHIP_WRITE))
+<P><STRONG><a name="[8e]"></a>WIZCHIP_WRITE</STRONG> (Thumb, 90 bytes, Stack size 24 bytes, w5500.o(i.WIZCHIP_WRITE))
 <BR><BR>[Stack]<UL><LI>Max Depth = 24<LI>Call Chain = WIZCHIP_WRITE
 </UL>
-<BR>[Called By]<UL><LI><a href="#[a0]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;do_udp
-<LI><a href="#[a9]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;wiz_send_data
-<LI><a href="#[a6]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;wiz_recv_ignore
-<LI><a href="#[a7]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;wiz_recv_data
-<LI><a href="#[a4]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;socket
-<LI><a href="#[a3]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;sendto
-<LI><a href="#[a2]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;recvfrom
-<LI><a href="#[8b]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;close
-<LI><a href="#[9d]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;wizphy_setphypmode
-<LI><a href="#[9b]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;wizphy_setphyconf
-<LI><a href="#[9a]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;wizphy_reset
-<LI><a href="#[94]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;wizchip_sw_reset
-<LI><a href="#[92]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;wizchip_settimeout
-<LI><a href="#[90]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;wizchip_setnetmode
-<LI><a href="#[98]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;wizchip_setinterruptmask
-<LI><a href="#[95]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;wizchip_init
-<LI><a href="#[96]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;wizchip_clrinterrupt
-<LI><a href="#[88]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;ctlwizchip
+<BR>[Called By]<UL><LI><a href="#[a2]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;do_udp
+<LI><a href="#[ac]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;wiz_send_data
+<LI><a href="#[a9]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;wiz_recv_ignore
+<LI><a href="#[aa]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;wiz_recv_data
+<LI><a href="#[a7]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;socket
+<LI><a href="#[a5]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;sendto
+<LI><a href="#[a4]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;recvfrom
+<LI><a href="#[8d]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;close
+<LI><a href="#[9f]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;wizphy_setphypmode
+<LI><a href="#[9d]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;wizphy_setphyconf
+<LI><a href="#[9c]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;wizphy_reset
+<LI><a href="#[96]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;wizchip_sw_reset
+<LI><a href="#[94]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;wizchip_settimeout
+<LI><a href="#[92]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;wizchip_setnetmode
+<LI><a href="#[9a]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;wizchip_setinterruptmask
+<LI><a href="#[97]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;wizchip_init
+<LI><a href="#[98]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;wizchip_clrinterrupt
+<LI><a href="#[8a]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;ctlwizchip
 </UL>
 
-<P><STRONG><a name="[a8]"></a>WIZCHIP_WRITE_BUF</STRONG> (Thumb, 108 bytes, Stack size 24 bytes, w5500.o(i.WIZCHIP_WRITE_BUF))
+<P><STRONG><a name="[ab]"></a>WIZCHIP_WRITE_BUF</STRONG> (Thumb, 108 bytes, Stack size 24 bytes, w5500.o(i.WIZCHIP_WRITE_BUF))
 <BR><BR>[Stack]<UL><LI>Max Depth = 24<LI>Call Chain = WIZCHIP_WRITE_BUF
 </UL>
-<BR>[Called By]<UL><LI><a href="#[a9]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;wiz_send_data
-<LI><a href="#[a3]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;sendto
-<LI><a href="#[94]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;wizchip_sw_reset
-<LI><a href="#[8e]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;wizchip_setnetinfo
+<BR>[Called By]<UL><LI><a href="#[ac]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;wiz_send_data
+<LI><a href="#[a5]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;sendto
+<LI><a href="#[96]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;wizchip_sw_reset
+<LI><a href="#[90]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;wizchip_setnetinfo
 </UL>
 
-<P><STRONG><a name="[8b]"></a>close</STRONG> (Thumb, 108 bytes, Stack size 16 bytes, socket.o(i.close))
+<P><STRONG><a name="[8d]"></a>close</STRONG> (Thumb, 108 bytes, Stack size 16 bytes, socket.o(i.close))
 <BR><BR>[Stack]<UL><LI>Max Depth = 40<LI>Call Chain = close &rArr; WIZCHIP_WRITE
 </UL>
-<BR>[Calls]<UL><LI><a href="#[8c]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;WIZCHIP_WRITE
-<LI><a href="#[8d]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;WIZCHIP_READ
+<BR>[Calls]<UL><LI><a href="#[8e]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;WIZCHIP_WRITE
+<LI><a href="#[8f]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;WIZCHIP_READ
 </UL>
-<BR>[Called By]<UL><LI><a href="#[a4]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;socket
-<LI><a href="#[a2]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;recvfrom
+<BR>[Called By]<UL><LI><a href="#[a7]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;socket
+<LI><a href="#[a4]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;recvfrom
 </UL>
 
-<P><STRONG><a name="[87]"></a>ctlnetwork</STRONG> (Thumb, 76 bytes, Stack size 8 bytes, wizchip_conf.o(i.ctlnetwork))
+<P><STRONG><a name="[89]"></a>ctlnetwork</STRONG> (Thumb, 76 bytes, Stack size 8 bytes, wizchip_conf.o(i.ctlnetwork))
 <BR><BR>[Stack]<UL><LI>Max Depth = 48<LI>Call Chain = ctlnetwork &rArr; wizchip_gettimeout &rArr; WIZCHIP_READ
 </UL>
-<BR>[Calls]<UL><LI><a href="#[92]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;wizchip_settimeout
-<LI><a href="#[90]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;wizchip_setnetmode
-<LI><a href="#[8e]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;wizchip_setnetinfo
-<LI><a href="#[93]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;wizchip_gettimeout
-<LI><a href="#[91]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;wizchip_getnetmode
-<LI><a href="#[8f]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;wizchip_getnetinfo
+<BR>[Calls]<UL><LI><a href="#[94]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;wizchip_settimeout
+<LI><a href="#[92]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;wizchip_setnetmode
+<LI><a href="#[90]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;wizchip_setnetinfo
+<LI><a href="#[95]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;wizchip_gettimeout
+<LI><a href="#[93]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;wizchip_getnetmode
+<LI><a href="#[91]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;wizchip_getnetinfo
 </UL>
-<BR>[Called By]<UL><LI><a href="#[83]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;UDPinit
+<BR>[Called By]<UL><LI><a href="#[85]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;UDPinit
 </UL>
 
-<P><STRONG><a name="[88]"></a>ctlwizchip</STRONG> (Thumb, 230 bytes, Stack size 24 bytes, wizchip_conf.o(i.ctlwizchip))
+<P><STRONG><a name="[8a]"></a>ctlwizchip</STRONG> (Thumb, 230 bytes, Stack size 24 bytes, wizchip_conf.o(i.ctlwizchip))
 <BR><BR>[Stack]<UL><LI>Max Depth = 120<LI>Call Chain = ctlwizchip &rArr; wizchip_init &rArr; wizchip_sw_reset &rArr; WIZCHIP_READ_BUF
 </UL>
-<BR>[Calls]<UL><LI><a href="#[8c]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;WIZCHIP_WRITE
-<LI><a href="#[8d]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;WIZCHIP_READ
-<LI><a href="#[9d]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;wizphy_setphypmode
-<LI><a href="#[9b]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;wizphy_setphyconf
-<LI><a href="#[9a]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;wizphy_reset
-<LI><a href="#[9e]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;wizphy_getphypmode
-<LI><a href="#[9f]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;wizphy_getphylink
-<LI><a href="#[9c]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;wizphy_getphyconf
-<LI><a href="#[94]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;wizchip_sw_reset
-<LI><a href="#[98]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;wizchip_setinterruptmask
-<LI><a href="#[95]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;wizchip_init
-<LI><a href="#[99]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;wizchip_getinterruptmask
-<LI><a href="#[97]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;wizchip_getinterrupt
-<LI><a href="#[96]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;wizchip_clrinterrupt
+<BR>[Calls]<UL><LI><a href="#[8e]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;WIZCHIP_WRITE
+<LI><a href="#[8f]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;WIZCHIP_READ
+<LI><a href="#[9f]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;wizphy_setphypmode
+<LI><a href="#[9d]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;wizphy_setphyconf
+<LI><a href="#[9c]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;wizphy_reset
+<LI><a href="#[a0]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;wizphy_getphypmode
+<LI><a href="#[a1]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;wizphy_getphylink
+<LI><a href="#[9e]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;wizphy_getphyconf
+<LI><a href="#[96]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;wizchip_sw_reset
+<LI><a href="#[9a]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;wizchip_setinterruptmask
+<LI><a href="#[97]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;wizchip_init
+<LI><a href="#[9b]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;wizchip_getinterruptmask
+<LI><a href="#[99]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;wizchip_getinterrupt
+<LI><a href="#[98]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;wizchip_clrinterrupt
 </UL>
-<BR>[Called By]<UL><LI><a href="#[83]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;UDPinit
+<BR>[Called By]<UL><LI><a href="#[85]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;UDPinit
 </UL>
 
-<P><STRONG><a name="[a0]"></a>do_udp</STRONG> (Thumb, 120 bytes, Stack size 16 bytes, myudp.o(i.do_udp))
+<P><STRONG><a name="[a2]"></a>do_udp</STRONG> (Thumb, 122 bytes, Stack size 16 bytes, myudp.o(i.do_udp))
 <BR><BR>[Stack]<UL><LI>Max Depth = 144<LI>Call Chain = do_udp &rArr; recvfrom &rArr; wiz_recv_data &rArr; WIZCHIP_READ_BUF
 </UL>
-<BR>[Calls]<UL><LI><a href="#[61]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;HAL_Delay
-<LI><a href="#[a1]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;getSn_RX_RSR
-<LI><a href="#[8c]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;WIZCHIP_WRITE
-<LI><a href="#[8d]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;WIZCHIP_READ
-<LI><a href="#[a4]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;socket
-<LI><a href="#[a3]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;sendto
-<LI><a href="#[a2]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;recvfrom
+<BR>[Calls]<UL><LI><a href="#[63]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;HAL_Delay
+<LI><a href="#[a3]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;getSn_RX_RSR
+<LI><a href="#[8e]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;WIZCHIP_WRITE
+<LI><a href="#[8f]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;WIZCHIP_READ
+<LI><a href="#[a7]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;socket
+<LI><a href="#[a5]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;sendto
+<LI><a href="#[a4]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;recvfrom
+<LI><a href="#[a6]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__aeabi_memclr
 </UL>
 <BR>[Called By]<UL><LI><a href="#[58]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;main
 </UL>
 
-<P><STRONG><a name="[a1]"></a>getSn_RX_RSR</STRONG> (Thumb, 76 bytes, Stack size 24 bytes, w5500.o(i.getSn_RX_RSR))
+<P><STRONG><a name="[a3]"></a>getSn_RX_RSR</STRONG> (Thumb, 76 bytes, Stack size 24 bytes, w5500.o(i.getSn_RX_RSR))
 <BR><BR>[Stack]<UL><LI>Max Depth = 48<LI>Call Chain = getSn_RX_RSR &rArr; WIZCHIP_READ
 </UL>
-<BR>[Calls]<UL><LI><a href="#[8d]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;WIZCHIP_READ
+<BR>[Calls]<UL><LI><a href="#[8f]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;WIZCHIP_READ
 </UL>
-<BR>[Called By]<UL><LI><a href="#[a0]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;do_udp
-<LI><a href="#[a2]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;recvfrom
+<BR>[Called By]<UL><LI><a href="#[a2]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;do_udp
+<LI><a href="#[a4]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;recvfrom
 </UL>
 
-<P><STRONG><a name="[a5]"></a>getSn_TX_FSR</STRONG> (Thumb, 76 bytes, Stack size 24 bytes, w5500.o(i.getSn_TX_FSR))
+<P><STRONG><a name="[a8]"></a>getSn_TX_FSR</STRONG> (Thumb, 76 bytes, Stack size 24 bytes, w5500.o(i.getSn_TX_FSR))
 <BR><BR>[Stack]<UL><LI>Max Depth = 48<LI>Call Chain = getSn_TX_FSR &rArr; WIZCHIP_READ
 </UL>
-<BR>[Calls]<UL><LI><a href="#[8d]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;WIZCHIP_READ
+<BR>[Calls]<UL><LI><a href="#[8f]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;WIZCHIP_READ
 </UL>
-<BR>[Called By]<UL><LI><a href="#[a3]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;sendto
+<BR>[Called By]<UL><LI><a href="#[a5]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;sendto
 </UL>
 
 <P><STRONG><a name="[58]"></a>main</STRONG> (Thumb, 30 bytes, Stack size 0 bytes, main.o(i.main))
 <BR><BR>[Stack]<UL><LI>Max Depth = 144<LI>Call Chain = main &rArr; do_udp &rArr; recvfrom &rArr; wiz_recv_data &rArr; WIZCHIP_READ_BUF
 </UL>
-<BR>[Calls]<UL><LI><a href="#[a0]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;do_udp
-<LI><a href="#[83]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;UDPinit
-<LI><a href="#[7c]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;MX_USART1_UART_Init
-<LI><a href="#[7a]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;MX_SPI1_Init
-<LI><a href="#[78]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;MX_GPIO_Init
-<LI><a href="#[63]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;HAL_Init
-<LI><a href="#[7f]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;SystemClock_Config
+<BR>[Calls]<UL><LI><a href="#[a2]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;do_udp
+<LI><a href="#[85]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;UDPinit
+<LI><a href="#[7e]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;MX_USART1_UART_Init
+<LI><a href="#[7c]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;MX_SPI1_Init
+<LI><a href="#[7a]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;MX_GPIO_Init
+<LI><a href="#[65]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;HAL_Init
+<LI><a href="#[81]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;SystemClock_Config
 </UL>
 <BR>[Called By]<UL><LI><a href="#[57]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__rt_entry_main
 </UL>
 
-<P><STRONG><a name="[a2]"></a>recvfrom</STRONG> (Thumb, 524 bytes, Stack size 64 bytes, socket.o(i.recvfrom))
+<P><STRONG><a name="[a4]"></a>recvfrom</STRONG> (Thumb, 524 bytes, Stack size 64 bytes, socket.o(i.recvfrom))
 <BR><BR>[Stack]<UL><LI>Max Depth = 128<LI>Call Chain = recvfrom &rArr; wiz_recv_data &rArr; WIZCHIP_READ_BUF
 </UL>
-<BR>[Calls]<UL><LI><a href="#[a6]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;wiz_recv_ignore
-<LI><a href="#[a7]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;wiz_recv_data
-<LI><a href="#[a1]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;getSn_RX_RSR
-<LI><a href="#[8c]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;WIZCHIP_WRITE
-<LI><a href="#[8d]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;WIZCHIP_READ
-<LI><a href="#[8b]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;close
+<BR>[Calls]<UL><LI><a href="#[a9]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;wiz_recv_ignore
+<LI><a href="#[aa]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;wiz_recv_data
+<LI><a href="#[a3]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;getSn_RX_RSR
+<LI><a href="#[8e]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;WIZCHIP_WRITE
+<LI><a href="#[8f]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;WIZCHIP_READ
+<LI><a href="#[8d]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;close
 </UL>
-<BR>[Called By]<UL><LI><a href="#[a0]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;do_udp
-</UL>
-
-<P><STRONG><a name="[84]"></a>reg_wizchip_cs_cbfunc</STRONG> (Thumb, 22 bytes, Stack size 0 bytes, wizchip_conf.o(i.reg_wizchip_cs_cbfunc))
-<BR><BR>[Called By]<UL><LI><a href="#[83]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;UDPinit
+<BR>[Called By]<UL><LI><a href="#[a2]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;do_udp
 </UL>
 
-<P><STRONG><a name="[85]"></a>reg_wizchip_spi_cbfunc</STRONG> (Thumb, 30 bytes, Stack size 8 bytes, wizchip_conf.o(i.reg_wizchip_spi_cbfunc))
+<P><STRONG><a name="[86]"></a>reg_wizchip_cs_cbfunc</STRONG> (Thumb, 22 bytes, Stack size 0 bytes, wizchip_conf.o(i.reg_wizchip_cs_cbfunc))
+<BR><BR>[Called By]<UL><LI><a href="#[85]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;UDPinit
+</UL>
+
+<P><STRONG><a name="[87]"></a>reg_wizchip_spi_cbfunc</STRONG> (Thumb, 30 bytes, Stack size 8 bytes, wizchip_conf.o(i.reg_wizchip_spi_cbfunc))
 <BR><BR>[Stack]<UL><LI>Max Depth = 8<LI>Call Chain = reg_wizchip_spi_cbfunc
 </UL>
-<BR>[Called By]<UL><LI><a href="#[83]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;UDPinit
+<BR>[Called By]<UL><LI><a href="#[85]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;UDPinit
 </UL>
 
-<P><STRONG><a name="[a3]"></a>sendto</STRONG> (Thumb, 378 bytes, Stack size 32 bytes, socket.o(i.sendto))
+<P><STRONG><a name="[a5]"></a>sendto</STRONG> (Thumb, 378 bytes, Stack size 32 bytes, socket.o(i.sendto))
 <BR><BR>[Stack]<UL><LI>Max Depth = 88<LI>Call Chain = sendto &rArr; wiz_send_data &rArr; WIZCHIP_WRITE_BUF
 </UL>
-<BR>[Calls]<UL><LI><a href="#[a9]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;wiz_send_data
-<LI><a href="#[a5]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;getSn_TX_FSR
-<LI><a href="#[a8]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;WIZCHIP_WRITE_BUF
-<LI><a href="#[8c]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;WIZCHIP_WRITE
-<LI><a href="#[8d]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;WIZCHIP_READ
+<BR>[Calls]<UL><LI><a href="#[ac]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;wiz_send_data
+<LI><a href="#[a8]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;getSn_TX_FSR
+<LI><a href="#[ab]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;WIZCHIP_WRITE_BUF
+<LI><a href="#[8e]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;WIZCHIP_WRITE
+<LI><a href="#[8f]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;WIZCHIP_READ
 </UL>
-<BR>[Called By]<UL><LI><a href="#[a0]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;do_udp
+<BR>[Called By]<UL><LI><a href="#[a2]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;do_udp
 </UL>
 
-<P><STRONG><a name="[a4]"></a>socket</STRONG> (Thumb, 276 bytes, Stack size 32 bytes, socket.o(i.socket))
+<P><STRONG><a name="[a7]"></a>socket</STRONG> (Thumb, 276 bytes, Stack size 32 bytes, socket.o(i.socket))
 <BR><BR>[Stack]<UL><LI>Max Depth = 72<LI>Call Chain = socket &rArr; close &rArr; WIZCHIP_WRITE
 </UL>
-<BR>[Calls]<UL><LI><a href="#[8c]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;WIZCHIP_WRITE
-<LI><a href="#[aa]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;WIZCHIP_READ_BUF
-<LI><a href="#[8d]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;WIZCHIP_READ
-<LI><a href="#[8b]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;close
+<BR>[Calls]<UL><LI><a href="#[8e]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;WIZCHIP_WRITE
+<LI><a href="#[ad]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;WIZCHIP_READ_BUF
+<LI><a href="#[8f]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;WIZCHIP_READ
+<LI><a href="#[8d]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;close
 </UL>
-<BR>[Called By]<UL><LI><a href="#[a0]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;do_udp
+<BR>[Called By]<UL><LI><a href="#[a2]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;do_udp
 </UL>
 
-<P><STRONG><a name="[a7]"></a>wiz_recv_data</STRONG> (Thumb, 96 bytes, Stack size 32 bytes, w5500.o(i.wiz_recv_data))
+<P><STRONG><a name="[aa]"></a>wiz_recv_data</STRONG> (Thumb, 96 bytes, Stack size 32 bytes, w5500.o(i.wiz_recv_data))
 <BR><BR>[Stack]<UL><LI>Max Depth = 64<LI>Call Chain = wiz_recv_data &rArr; WIZCHIP_READ_BUF
 </UL>
-<BR>[Calls]<UL><LI><a href="#[8c]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;WIZCHIP_WRITE
-<LI><a href="#[aa]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;WIZCHIP_READ_BUF
-<LI><a href="#[8d]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;WIZCHIP_READ
+<BR>[Calls]<UL><LI><a href="#[8e]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;WIZCHIP_WRITE
+<LI><a href="#[ad]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;WIZCHIP_READ_BUF
+<LI><a href="#[8f]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;WIZCHIP_READ
 </UL>
-<BR>[Called By]<UL><LI><a href="#[a2]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;recvfrom
+<BR>[Called By]<UL><LI><a href="#[a4]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;recvfrom
 </UL>
 
-<P><STRONG><a name="[a6]"></a>wiz_recv_ignore</STRONG> (Thumb, 66 bytes, Stack size 24 bytes, w5500.o(i.wiz_recv_ignore))
+<P><STRONG><a name="[a9]"></a>wiz_recv_ignore</STRONG> (Thumb, 66 bytes, Stack size 24 bytes, w5500.o(i.wiz_recv_ignore))
 <BR><BR>[Stack]<UL><LI>Max Depth = 48<LI>Call Chain = wiz_recv_ignore &rArr; WIZCHIP_WRITE
 </UL>
-<BR>[Calls]<UL><LI><a href="#[8c]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;WIZCHIP_WRITE
-<LI><a href="#[8d]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;WIZCHIP_READ
+<BR>[Calls]<UL><LI><a href="#[8e]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;WIZCHIP_WRITE
+<LI><a href="#[8f]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;WIZCHIP_READ
 </UL>
-<BR>[Called By]<UL><LI><a href="#[a2]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;recvfrom
+<BR>[Called By]<UL><LI><a href="#[a4]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;recvfrom
 </UL>
 
-<P><STRONG><a name="[a9]"></a>wiz_send_data</STRONG> (Thumb, 96 bytes, Stack size 32 bytes, w5500.o(i.wiz_send_data))
+<P><STRONG><a name="[ac]"></a>wiz_send_data</STRONG> (Thumb, 96 bytes, Stack size 32 bytes, w5500.o(i.wiz_send_data))
 <BR><BR>[Stack]<UL><LI>Max Depth = 56<LI>Call Chain = wiz_send_data &rArr; WIZCHIP_WRITE_BUF
 </UL>
-<BR>[Calls]<UL><LI><a href="#[a8]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;WIZCHIP_WRITE_BUF
-<LI><a href="#[8c]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;WIZCHIP_WRITE
-<LI><a href="#[8d]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;WIZCHIP_READ
+<BR>[Calls]<UL><LI><a href="#[ab]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;WIZCHIP_WRITE_BUF
+<LI><a href="#[8e]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;WIZCHIP_WRITE
+<LI><a href="#[8f]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;WIZCHIP_READ
 </UL>
-<BR>[Called By]<UL><LI><a href="#[a3]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;sendto
+<BR>[Called By]<UL><LI><a href="#[a5]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;sendto
 </UL>
 
 <P><STRONG><a name="[4c]"></a>wizchip_bus_readdata</STRONG> (Thumb, 4 bytes, Stack size 0 bytes, wizchip_conf.o(i.wizchip_bus_readdata))
@@ -1001,12 +1014,12 @@ Global Symbols
 <P><STRONG><a name="[4d]"></a>wizchip_bus_writedata</STRONG> (Thumb, 4 bytes, Stack size 0 bytes, wizchip_conf.o(i.wizchip_bus_writedata))
 <BR>[Address Reference Count : 1]<UL><LI> wizchip_conf.o(.data)
 </UL>
-<P><STRONG><a name="[96]"></a>wizchip_clrinterrupt</STRONG> (Thumb, 58 bytes, Stack size 24 bytes, wizchip_conf.o(i.wizchip_clrinterrupt))
+<P><STRONG><a name="[98]"></a>wizchip_clrinterrupt</STRONG> (Thumb, 58 bytes, Stack size 24 bytes, wizchip_conf.o(i.wizchip_clrinterrupt))
 <BR><BR>[Stack]<UL><LI>Max Depth = 48<LI>Call Chain = wizchip_clrinterrupt &rArr; WIZCHIP_WRITE
 </UL>
-<BR>[Calls]<UL><LI><a href="#[8c]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;WIZCHIP_WRITE
+<BR>[Calls]<UL><LI><a href="#[8e]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;WIZCHIP_WRITE
 </UL>
-<BR>[Called By]<UL><LI><a href="#[88]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;ctlwizchip
+<BR>[Called By]<UL><LI><a href="#[8a]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;ctlwizchip
 </UL>
 
 <P><STRONG><a name="[4a]"></a>wizchip_cris_enter</STRONG> (Thumb, 2 bytes, Stack size 0 bytes, wizchip_conf.o(i.wizchip_cris_enter))
@@ -1023,86 +1036,86 @@ Global Symbols
 <BR>[Address Reference Count : 2]<UL><LI> wizchip_conf.o(.data)
 <LI> wizchip_conf.o(i.reg_wizchip_cs_cbfunc)
 </UL>
-<P><STRONG><a name="[97]"></a>wizchip_getinterrupt</STRONG> (Thumb, 30 bytes, Stack size 8 bytes, wizchip_conf.o(i.wizchip_getinterrupt))
+<P><STRONG><a name="[99]"></a>wizchip_getinterrupt</STRONG> (Thumb, 30 bytes, Stack size 8 bytes, wizchip_conf.o(i.wizchip_getinterrupt))
 <BR><BR>[Stack]<UL><LI>Max Depth = 32<LI>Call Chain = wizchip_getinterrupt &rArr; WIZCHIP_READ
 </UL>
-<BR>[Calls]<UL><LI><a href="#[8d]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;WIZCHIP_READ
+<BR>[Calls]<UL><LI><a href="#[8f]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;WIZCHIP_READ
 </UL>
-<BR>[Called By]<UL><LI><a href="#[88]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;ctlwizchip
+<BR>[Called By]<UL><LI><a href="#[8a]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;ctlwizchip
 </UL>
 
-<P><STRONG><a name="[99]"></a>wizchip_getinterruptmask</STRONG> (Thumb, 28 bytes, Stack size 8 bytes, wizchip_conf.o(i.wizchip_getinterruptmask))
+<P><STRONG><a name="[9b]"></a>wizchip_getinterruptmask</STRONG> (Thumb, 28 bytes, Stack size 8 bytes, wizchip_conf.o(i.wizchip_getinterruptmask))
 <BR><BR>[Stack]<UL><LI>Max Depth = 32<LI>Call Chain = wizchip_getinterruptmask &rArr; WIZCHIP_READ
 </UL>
-<BR>[Calls]<UL><LI><a href="#[8d]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;WIZCHIP_READ
+<BR>[Calls]<UL><LI><a href="#[8f]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;WIZCHIP_READ
 </UL>
-<BR>[Called By]<UL><LI><a href="#[88]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;ctlwizchip
+<BR>[Called By]<UL><LI><a href="#[8a]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;ctlwizchip
 </UL>
 
-<P><STRONG><a name="[8f]"></a>wizchip_getnetinfo</STRONG> (Thumb, 82 bytes, Stack size 8 bytes, wizchip_conf.o(i.wizchip_getnetinfo))
+<P><STRONG><a name="[91]"></a>wizchip_getnetinfo</STRONG> (Thumb, 82 bytes, Stack size 8 bytes, wizchip_conf.o(i.wizchip_getnetinfo))
 <BR><BR>[Stack]<UL><LI>Max Depth = 40<LI>Call Chain = wizchip_getnetinfo &rArr; WIZCHIP_READ_BUF
 </UL>
-<BR>[Calls]<UL><LI><a href="#[aa]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;WIZCHIP_READ_BUF
+<BR>[Calls]<UL><LI><a href="#[ad]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;WIZCHIP_READ_BUF
 </UL>
-<BR>[Called By]<UL><LI><a href="#[87]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;ctlnetwork
+<BR>[Called By]<UL><LI><a href="#[89]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;ctlnetwork
 </UL>
 
-<P><STRONG><a name="[91]"></a>wizchip_getnetmode</STRONG> (Thumb, 6 bytes, Stack size 0 bytes, wizchip_conf.o(i.wizchip_getnetmode))
+<P><STRONG><a name="[93]"></a>wizchip_getnetmode</STRONG> (Thumb, 6 bytes, Stack size 0 bytes, wizchip_conf.o(i.wizchip_getnetmode))
 <BR><BR>[Stack]<UL><LI>Max Depth = 24<LI>Call Chain = wizchip_getnetmode &rArr; WIZCHIP_READ
 </UL>
-<BR>[Calls]<UL><LI><a href="#[8d]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;WIZCHIP_READ
+<BR>[Calls]<UL><LI><a href="#[8f]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;WIZCHIP_READ
 </UL>
-<BR>[Called By]<UL><LI><a href="#[87]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;ctlnetwork
+<BR>[Called By]<UL><LI><a href="#[89]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;ctlnetwork
 </UL>
 
-<P><STRONG><a name="[93]"></a>wizchip_gettimeout</STRONG> (Thumb, 40 bytes, Stack size 16 bytes, wizchip_conf.o(i.wizchip_gettimeout))
+<P><STRONG><a name="[95]"></a>wizchip_gettimeout</STRONG> (Thumb, 40 bytes, Stack size 16 bytes, wizchip_conf.o(i.wizchip_gettimeout))
 <BR><BR>[Stack]<UL><LI>Max Depth = 40<LI>Call Chain = wizchip_gettimeout &rArr; WIZCHIP_READ
 </UL>
-<BR>[Calls]<UL><LI><a href="#[8d]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;WIZCHIP_READ
+<BR>[Calls]<UL><LI><a href="#[8f]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;WIZCHIP_READ
 </UL>
-<BR>[Called By]<UL><LI><a href="#[87]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;ctlnetwork
+<BR>[Called By]<UL><LI><a href="#[89]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;ctlnetwork
 </UL>
 
-<P><STRONG><a name="[95]"></a>wizchip_init</STRONG> (Thumb, 122 bytes, Stack size 24 bytes, wizchip_conf.o(i.wizchip_init))
+<P><STRONG><a name="[97]"></a>wizchip_init</STRONG> (Thumb, 122 bytes, Stack size 24 bytes, wizchip_conf.o(i.wizchip_init))
 <BR><BR>[Stack]<UL><LI>Max Depth = 96<LI>Call Chain = wizchip_init &rArr; wizchip_sw_reset &rArr; WIZCHIP_READ_BUF
 </UL>
-<BR>[Calls]<UL><LI><a href="#[8c]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;WIZCHIP_WRITE
-<LI><a href="#[94]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;wizchip_sw_reset
+<BR>[Calls]<UL><LI><a href="#[8e]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;WIZCHIP_WRITE
+<LI><a href="#[96]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;wizchip_sw_reset
 </UL>
-<BR>[Called By]<UL><LI><a href="#[88]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;ctlwizchip
+<BR>[Called By]<UL><LI><a href="#[8a]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;ctlwizchip
 </UL>
 
-<P><STRONG><a name="[98]"></a>wizchip_setinterruptmask</STRONG> (Thumb, 28 bytes, Stack size 8 bytes, wizchip_conf.o(i.wizchip_setinterruptmask))
+<P><STRONG><a name="[9a]"></a>wizchip_setinterruptmask</STRONG> (Thumb, 28 bytes, Stack size 8 bytes, wizchip_conf.o(i.wizchip_setinterruptmask))
 <BR><BR>[Stack]<UL><LI>Max Depth = 32<LI>Call Chain = wizchip_setinterruptmask &rArr; WIZCHIP_WRITE
 </UL>
-<BR>[Calls]<UL><LI><a href="#[8c]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;WIZCHIP_WRITE
+<BR>[Calls]<UL><LI><a href="#[8e]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;WIZCHIP_WRITE
 </UL>
-<BR>[Called By]<UL><LI><a href="#[88]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;ctlwizchip
+<BR>[Called By]<UL><LI><a href="#[8a]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;ctlwizchip
 </UL>
 
-<P><STRONG><a name="[8e]"></a>wizchip_setnetinfo</STRONG> (Thumb, 82 bytes, Stack size 8 bytes, wizchip_conf.o(i.wizchip_setnetinfo))
+<P><STRONG><a name="[90]"></a>wizchip_setnetinfo</STRONG> (Thumb, 82 bytes, Stack size 8 bytes, wizchip_conf.o(i.wizchip_setnetinfo))
 <BR><BR>[Stack]<UL><LI>Max Depth = 32<LI>Call Chain = wizchip_setnetinfo &rArr; WIZCHIP_WRITE_BUF
 </UL>
-<BR>[Calls]<UL><LI><a href="#[a8]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;WIZCHIP_WRITE_BUF
+<BR>[Calls]<UL><LI><a href="#[ab]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;WIZCHIP_WRITE_BUF
 </UL>
-<BR>[Called By]<UL><LI><a href="#[87]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;ctlnetwork
+<BR>[Called By]<UL><LI><a href="#[89]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;ctlnetwork
 </UL>
 
-<P><STRONG><a name="[90]"></a>wizchip_setnetmode</STRONG> (Thumb, 36 bytes, Stack size 8 bytes, wizchip_conf.o(i.wizchip_setnetmode))
+<P><STRONG><a name="[92]"></a>wizchip_setnetmode</STRONG> (Thumb, 36 bytes, Stack size 8 bytes, wizchip_conf.o(i.wizchip_setnetmode))
 <BR><BR>[Stack]<UL><LI>Max Depth = 32<LI>Call Chain = wizchip_setnetmode &rArr; WIZCHIP_WRITE
 </UL>
-<BR>[Calls]<UL><LI><a href="#[8c]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;WIZCHIP_WRITE
-<LI><a href="#[8d]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;WIZCHIP_READ
+<BR>[Calls]<UL><LI><a href="#[8e]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;WIZCHIP_WRITE
+<LI><a href="#[8f]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;WIZCHIP_READ
 </UL>
-<BR>[Called By]<UL><LI><a href="#[87]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;ctlnetwork
+<BR>[Called By]<UL><LI><a href="#[89]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;ctlnetwork
 </UL>
 
-<P><STRONG><a name="[92]"></a>wizchip_settimeout</STRONG> (Thumb, 40 bytes, Stack size 8 bytes, wizchip_conf.o(i.wizchip_settimeout))
+<P><STRONG><a name="[94]"></a>wizchip_settimeout</STRONG> (Thumb, 40 bytes, Stack size 8 bytes, wizchip_conf.o(i.wizchip_settimeout))
 <BR><BR>[Stack]<UL><LI>Max Depth = 32<LI>Call Chain = wizchip_settimeout &rArr; WIZCHIP_WRITE
 </UL>
-<BR>[Calls]<UL><LI><a href="#[8c]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;WIZCHIP_WRITE
+<BR>[Calls]<UL><LI><a href="#[8e]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;WIZCHIP_WRITE
 </UL>
-<BR>[Called By]<UL><LI><a href="#[87]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;ctlnetwork
+<BR>[Called By]<UL><LI><a href="#[89]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;ctlnetwork
 </UL>
 
 <P><STRONG><a name="[48]"></a>wizchip_spi_readbyte</STRONG> (Thumb, 4 bytes, Stack size 0 bytes, wizchip_conf.o(i.wizchip_spi_readbyte))
@@ -1111,113 +1124,113 @@ Global Symbols
 <P><STRONG><a name="[49]"></a>wizchip_spi_writebyte</STRONG> (Thumb, 2 bytes, Stack size 0 bytes, wizchip_conf.o(i.wizchip_spi_writebyte))
 <BR>[Address Reference Count : 1]<UL><LI> wizchip_conf.o(i.reg_wizchip_spi_cbfunc)
 </UL>
-<P><STRONG><a name="[94]"></a>wizchip_sw_reset</STRONG> (Thumb, 116 bytes, Stack size 40 bytes, wizchip_conf.o(i.wizchip_sw_reset))
+<P><STRONG><a name="[96]"></a>wizchip_sw_reset</STRONG> (Thumb, 116 bytes, Stack size 40 bytes, wizchip_conf.o(i.wizchip_sw_reset))
 <BR><BR>[Stack]<UL><LI>Max Depth = 72<LI>Call Chain = wizchip_sw_reset &rArr; WIZCHIP_READ_BUF
 </UL>
-<BR>[Calls]<UL><LI><a href="#[a8]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;WIZCHIP_WRITE_BUF
-<LI><a href="#[8c]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;WIZCHIP_WRITE
-<LI><a href="#[aa]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;WIZCHIP_READ_BUF
-<LI><a href="#[8d]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;WIZCHIP_READ
+<BR>[Calls]<UL><LI><a href="#[ab]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;WIZCHIP_WRITE_BUF
+<LI><a href="#[8e]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;WIZCHIP_WRITE
+<LI><a href="#[ad]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;WIZCHIP_READ_BUF
+<LI><a href="#[8f]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;WIZCHIP_READ
 </UL>
-<BR>[Called By]<UL><LI><a href="#[95]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;wizchip_init
-<LI><a href="#[88]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;ctlwizchip
+<BR>[Called By]<UL><LI><a href="#[97]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;wizchip_init
+<LI><a href="#[8a]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;ctlwizchip
 </UL>
 
-<P><STRONG><a name="[9c]"></a>wizphy_getphyconf</STRONG> (Thumb, 78 bytes, Stack size 8 bytes, wizchip_conf.o(i.wizphy_getphyconf))
+<P><STRONG><a name="[9e]"></a>wizphy_getphyconf</STRONG> (Thumb, 78 bytes, Stack size 8 bytes, wizchip_conf.o(i.wizphy_getphyconf))
 <BR><BR>[Stack]<UL><LI>Max Depth = 32<LI>Call Chain = wizphy_getphyconf &rArr; WIZCHIP_READ
 </UL>
-<BR>[Calls]<UL><LI><a href="#[8d]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;WIZCHIP_READ
+<BR>[Calls]<UL><LI><a href="#[8f]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;WIZCHIP_READ
 </UL>
-<BR>[Called By]<UL><LI><a href="#[88]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;ctlwizchip
+<BR>[Called By]<UL><LI><a href="#[8a]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;ctlwizchip
 </UL>
 
-<P><STRONG><a name="[9f]"></a>wizphy_getphylink</STRONG> (Thumb, 22 bytes, Stack size 8 bytes, wizchip_conf.o(i.wizphy_getphylink))
+<P><STRONG><a name="[a1]"></a>wizphy_getphylink</STRONG> (Thumb, 22 bytes, Stack size 8 bytes, wizchip_conf.o(i.wizphy_getphylink))
 <BR><BR>[Stack]<UL><LI>Max Depth = 32<LI>Call Chain = wizphy_getphylink &rArr; WIZCHIP_READ
 </UL>
-<BR>[Calls]<UL><LI><a href="#[8d]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;WIZCHIP_READ
+<BR>[Calls]<UL><LI><a href="#[8f]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;WIZCHIP_READ
 </UL>
-<BR>[Called By]<UL><LI><a href="#[88]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;ctlwizchip
+<BR>[Called By]<UL><LI><a href="#[8a]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;ctlwizchip
 </UL>
 
-<P><STRONG><a name="[9e]"></a>wizphy_getphypmode</STRONG> (Thumb, 26 bytes, Stack size 8 bytes, wizchip_conf.o(i.wizphy_getphypmode))
+<P><STRONG><a name="[a0]"></a>wizphy_getphypmode</STRONG> (Thumb, 26 bytes, Stack size 8 bytes, wizchip_conf.o(i.wizphy_getphypmode))
 <BR><BR>[Stack]<UL><LI>Max Depth = 32<LI>Call Chain = wizphy_getphypmode &rArr; WIZCHIP_READ
 </UL>
-<BR>[Calls]<UL><LI><a href="#[8d]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;WIZCHIP_READ
+<BR>[Calls]<UL><LI><a href="#[8f]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;WIZCHIP_READ
 </UL>
-<BR>[Called By]<UL><LI><a href="#[88]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;ctlwizchip
+<BR>[Called By]<UL><LI><a href="#[8a]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;ctlwizchip
 </UL>
 
-<P><STRONG><a name="[9a]"></a>wizphy_reset</STRONG> (Thumb, 42 bytes, Stack size 8 bytes, wizchip_conf.o(i.wizphy_reset))
+<P><STRONG><a name="[9c]"></a>wizphy_reset</STRONG> (Thumb, 42 bytes, Stack size 8 bytes, wizchip_conf.o(i.wizphy_reset))
 <BR><BR>[Stack]<UL><LI>Max Depth = 32<LI>Call Chain = wizphy_reset &rArr; WIZCHIP_WRITE
 </UL>
-<BR>[Calls]<UL><LI><a href="#[8c]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;WIZCHIP_WRITE
-<LI><a href="#[8d]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;WIZCHIP_READ
+<BR>[Calls]<UL><LI><a href="#[8e]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;WIZCHIP_WRITE
+<LI><a href="#[8f]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;WIZCHIP_READ
 </UL>
-<BR>[Called By]<UL><LI><a href="#[9d]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;wizphy_setphypmode
-<LI><a href="#[9b]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;wizphy_setphyconf
-<LI><a href="#[88]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;ctlwizchip
+<BR>[Called By]<UL><LI><a href="#[9f]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;wizphy_setphypmode
+<LI><a href="#[9d]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;wizphy_setphyconf
+<LI><a href="#[8a]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;ctlwizchip
 </UL>
 
-<P><STRONG><a name="[9b]"></a>wizphy_setphyconf</STRONG> (Thumb, 74 bytes, Stack size 8 bytes, wizchip_conf.o(i.wizphy_setphyconf))
+<P><STRONG><a name="[9d]"></a>wizphy_setphyconf</STRONG> (Thumb, 74 bytes, Stack size 8 bytes, wizchip_conf.o(i.wizphy_setphyconf))
 <BR><BR>[Stack]<UL><LI>Max Depth = 40<LI>Call Chain = wizphy_setphyconf &rArr; wizphy_reset &rArr; WIZCHIP_WRITE
 </UL>
-<BR>[Calls]<UL><LI><a href="#[8c]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;WIZCHIP_WRITE
-<LI><a href="#[9a]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;wizphy_reset
+<BR>[Calls]<UL><LI><a href="#[8e]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;WIZCHIP_WRITE
+<LI><a href="#[9c]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;wizphy_reset
 </UL>
-<BR>[Called By]<UL><LI><a href="#[88]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;ctlwizchip
+<BR>[Called By]<UL><LI><a href="#[8a]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;ctlwizchip
 </UL>
 
-<P><STRONG><a name="[9d]"></a>wizphy_setphypmode</STRONG> (Thumb, 80 bytes, Stack size 16 bytes, wizchip_conf.o(i.wizphy_setphypmode))
+<P><STRONG><a name="[9f]"></a>wizphy_setphypmode</STRONG> (Thumb, 80 bytes, Stack size 16 bytes, wizchip_conf.o(i.wizphy_setphypmode))
 <BR><BR>[Stack]<UL><LI>Max Depth = 48<LI>Call Chain = wizphy_setphypmode &rArr; wizphy_reset &rArr; WIZCHIP_WRITE
 </UL>
-<BR>[Calls]<UL><LI><a href="#[8c]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;WIZCHIP_WRITE
-<LI><a href="#[8d]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;WIZCHIP_READ
-<LI><a href="#[9a]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;wizphy_reset
+<BR>[Calls]<UL><LI><a href="#[8e]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;WIZCHIP_WRITE
+<LI><a href="#[8f]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;WIZCHIP_READ
+<LI><a href="#[9c]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;wizphy_reset
 </UL>
-<BR>[Called By]<UL><LI><a href="#[88]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;ctlwizchip
+<BR>[Called By]<UL><LI><a href="#[8a]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;ctlwizchip
 </UL>
 <P>
 <H3>
 Local Symbols
 </H3>
-<P><STRONG><a name="[72]"></a>SPI_EndRxTransaction</STRONG> (Thumb, 92 bytes, Stack size 24 bytes, stm32f1xx_hal_spi.o(i.SPI_EndRxTransaction))
+<P><STRONG><a name="[74]"></a>SPI_EndRxTransaction</STRONG> (Thumb, 92 bytes, Stack size 24 bytes, stm32f1xx_hal_spi.o(i.SPI_EndRxTransaction))
 <BR><BR>[Stack]<UL><LI>Max Depth = 56<LI>Call Chain = SPI_EndRxTransaction &rArr; SPI_WaitFlagStateUntilTimeout
 </UL>
-<BR>[Calls]<UL><LI><a href="#[7d]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;SPI_WaitFlagStateUntilTimeout
+<BR>[Calls]<UL><LI><a href="#[7f]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;SPI_WaitFlagStateUntilTimeout
 </UL>
-<BR>[Called By]<UL><LI><a href="#[70]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;HAL_SPI_Receive
+<BR>[Called By]<UL><LI><a href="#[72]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;HAL_SPI_Receive
 </UL>
 
-<P><STRONG><a name="[74]"></a>SPI_EndRxTxTransaction</STRONG> (Thumb, 32 bytes, Stack size 16 bytes, stm32f1xx_hal_spi.o(i.SPI_EndRxTxTransaction))
+<P><STRONG><a name="[76]"></a>SPI_EndRxTxTransaction</STRONG> (Thumb, 32 bytes, Stack size 16 bytes, stm32f1xx_hal_spi.o(i.SPI_EndRxTxTransaction))
 <BR><BR>[Stack]<UL><LI>Max Depth = 48<LI>Call Chain = SPI_EndRxTxTransaction &rArr; SPI_WaitFlagStateUntilTimeout
 </UL>
-<BR>[Calls]<UL><LI><a href="#[7d]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;SPI_WaitFlagStateUntilTimeout
+<BR>[Calls]<UL><LI><a href="#[7f]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;SPI_WaitFlagStateUntilTimeout
 </UL>
-<BR>[Called By]<UL><LI><a href="#[71]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;HAL_SPI_TransmitReceive
-<LI><a href="#[73]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;HAL_SPI_Transmit
+<BR>[Called By]<UL><LI><a href="#[73]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;HAL_SPI_TransmitReceive
+<LI><a href="#[75]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;HAL_SPI_Transmit
 </UL>
 
-<P><STRONG><a name="[7d]"></a>SPI_WaitFlagStateUntilTimeout</STRONG> (Thumb, 180 bytes, Stack size 32 bytes, stm32f1xx_hal_spi.o(i.SPI_WaitFlagStateUntilTimeout))
+<P><STRONG><a name="[7f]"></a>SPI_WaitFlagStateUntilTimeout</STRONG> (Thumb, 180 bytes, Stack size 32 bytes, stm32f1xx_hal_spi.o(i.SPI_WaitFlagStateUntilTimeout))
 <BR><BR>[Stack]<UL><LI>Max Depth = 32<LI>Call Chain = SPI_WaitFlagStateUntilTimeout
 </UL>
-<BR>[Calls]<UL><LI><a href="#[62]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;HAL_GetTick
+<BR>[Calls]<UL><LI><a href="#[64]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;HAL_GetTick
 </UL>
-<BR>[Called By]<UL><LI><a href="#[74]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;SPI_EndRxTxTransaction
-<LI><a href="#[72]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;SPI_EndRxTransaction
-</UL>
-
-<P><STRONG><a name="[69]"></a>__NVIC_SetPriority</STRONG> (Thumb, 32 bytes, Stack size 0 bytes, stm32f1xx_hal_cortex.o(i.__NVIC_SetPriority))
-<BR><BR>[Called By]<UL><LI><a href="#[67]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;HAL_SYSTICK_Config
-<LI><a href="#[68]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;HAL_NVIC_SetPriority
+<BR>[Called By]<UL><LI><a href="#[76]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;SPI_EndRxTxTransaction
+<LI><a href="#[74]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;SPI_EndRxTransaction
 </UL>
 
-<P><STRONG><a name="[77]"></a>UART_SetConfig</STRONG> (Thumb, 178 bytes, Stack size 16 bytes, stm32f1xx_hal_uart.o(i.UART_SetConfig))
+<P><STRONG><a name="[6b]"></a>__NVIC_SetPriority</STRONG> (Thumb, 32 bytes, Stack size 0 bytes, stm32f1xx_hal_cortex.o(i.__NVIC_SetPriority))
+<BR><BR>[Called By]<UL><LI><a href="#[69]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;HAL_SYSTICK_Config
+<LI><a href="#[6a]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;HAL_NVIC_SetPriority
+</UL>
+
+<P><STRONG><a name="[79]"></a>UART_SetConfig</STRONG> (Thumb, 178 bytes, Stack size 16 bytes, stm32f1xx_hal_uart.o(i.UART_SetConfig))
 <BR><BR>[Stack]<UL><LI>Max Depth = 16<LI>Call Chain = UART_SetConfig
 </UL>
-<BR>[Calls]<UL><LI><a href="#[81]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;HAL_RCC_GetPCLK2Freq
-<LI><a href="#[82]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;HAL_RCC_GetPCLK1Freq
+<BR>[Calls]<UL><LI><a href="#[83]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;HAL_RCC_GetPCLK2Freq
+<LI><a href="#[84]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;HAL_RCC_GetPCLK1Freq
 </UL>
-<BR>[Called By]<UL><LI><a href="#[75]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;HAL_UART_Init
+<BR>[Called By]<UL><LI><a href="#[77]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;HAL_UART_Init
 </UL>
 <P>
 <H3>

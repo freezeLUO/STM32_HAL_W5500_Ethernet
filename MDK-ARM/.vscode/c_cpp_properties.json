@@ -118,6 +118,7 @@
                 "C:\\Keil_v5\\ARM\\ARMCC\\include\\rw",
                 "c:\\Users\\L\\Desktop\\ROV\\STM32Projects\\HAL_UDP\\MDK-ARM",
                 "c:\\Users\\L\\Desktop\\ROV\\STM32Projects\\HAL_UDP\\Core\\Src",
+                "c:\\Users\\L\\Desktop\\ROV\\STM32Projects\\HAL_UDP",
                 "c:\\Users\\L\\Desktop\\ROV\\STM32Projects\\HAL_UDP\\Drivers\\STM32F1xx_HAL_Driver\\Src"
             ],
             "defines": [

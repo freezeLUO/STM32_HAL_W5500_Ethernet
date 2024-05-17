@@ -96,28 +96,26 @@ void UDPinit(void)
 
 void do_udp(void)
 {                                                              
-	uint16_t len=0;
-//	uint8 buff[2048];                                                          /*定义一个2KB的缓存*/	
-	switch(getSn_SR(SOCK_UDPS))                                                /*获取socket的状态*/
+	uint16_t len=0;	
+	switch(getSn_SR(SOCK_UDPS))       /*获取socket的状态*/
 	{
-		case SOCK_CLOSED:                                                        /*socket处于关闭状态*/
-			socket(SOCK_UDPS,Sn_MR_UDP,5000,0);                              /*初始化socket*/
+		case SOCK_CLOSED:                 /*socket处于关闭状态*/
+			socket(SOCK_UDPS,Sn_MR_UDP,5000,0);    /*初始化socket*/
 		  break;
 		
-		case SOCK_UDP:                                                           /*socket初始化完成*/
-			HAL_Delay(100);                                                      /*延时1s*/
-
-
-			if(getSn_IR(SOCK_UDPS) & Sn_IR_RECV)
+		case SOCK_UDP:      /*socket初始化完成*/
+			HAL_Delay(10);  
+			if(getSn_IR(SOCK_UDPS) & Sn_IR_RECV) //检查是否有接收中断
 			{
-				setSn_IR(SOCK_UDPS, Sn_IR_RECV);                                     /*清接收中断*/
+				setSn_IR(SOCK_UDPS, Sn_IR_RECV);  /*清接收中断*/
 			}
-			if((len=getSn_RX_RSR(SOCK_UDPS))>0)                                    /*接收到数据*/
+			if((len=getSn_RX_RSR(SOCK_UDPS))>0)  /*接收到数据*/
 			{
 				recvfrom(SOCK_UDPS,buff, len, remote_ip,&remote_port);               /*W5500接收计算机发送来的数据*/
-				buff[len-8]=0x00;                                                    /*添加字符串结束符*/
+				//buff[len-8]=0x00;                                                    /*添加字符串结束符*/
 				//printf("%s\r\n",buff);                                               /*打印接收缓存*/ 
 				sendto(SOCK_UDPS,buff,len-8, remote_ip, remote_port);                /*W5500把接收到的数据发送给Remote*/
+        memset(buff, 0, sizeof(buff));
 			}
 			break;
 	}

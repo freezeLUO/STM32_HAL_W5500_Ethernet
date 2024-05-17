@@ -62,9 +62,7 @@ void SystemClock_Config(void);
 /* USER CODE BEGIN 0 */
 
 /**
-*@brief		UDP测试程序
-*@param		无
-*@return	无
+
 */
 
 /* USER CODE END 0 */
@@ -113,7 +111,7 @@ int main(void)
   while (1)
   {
     /* USER CODE END WHILE */
-  //loopback_udps(2, (uint8_t*)recv_buff, 5000);
+
   do_udp();
     /* USER CODE BEGIN 3 */
   }

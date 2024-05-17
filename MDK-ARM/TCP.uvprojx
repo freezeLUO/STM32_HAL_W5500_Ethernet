@@ -423,6 +423,11 @@
               <FileType>1</FileType>
               <FilePath>../Core/Src/stm32f1xx_hal_msp.c</FilePath>
             </File>
+            <File>
+              <FileName>README.txt</FileName>
+              <FileType>5</FileType>
+              <FilePath>..\README.txt</FilePath>
+            </File>
           </Files>
         </Group>
         <Group>
