@@ -22,6 +22,10 @@
 #include "stm32f1xx_it.h"
 /* Private includes ----------------------------------------------------------*/
 /* USER CODE BEGIN Includes */
+#include "gpio.h"
+#include "MyUDP.h"
+
+int a = 0;
 /* USER CODE END Includes */
 
 /* Private typedef -----------------------------------------------------------*/
@@ -55,7 +59,7 @@
 /* USER CODE END 0 */
 
 /* External variables --------------------------------------------------------*/
-
+extern TIM_HandleTypeDef htim2;
 /* USER CODE BEGIN EV */
 
 /* USER CODE END EV */
@@ -197,6 +201,41 @@ void SysTick_Handler(void)
 /* For the available peripheral interrupt handler names,                      */
 /* please refer to the startup file (startup_stm32f1xx.s).                    */
 /******************************************************************************/
+
+/**
+  * @brief This function handles TIM2 global interrupt.
+  */
+void TIM2_IRQHandler(void)
+{
+  /* USER CODE BEGIN TIM2_IRQn 0 */
+  HAL_GPIO_TogglePin(LED1_GPIO_Port, LED1_Pin);
+
+  if(a == 0)
+  {
+    UDP_send_buff[0] = 0x01;
+    UDP_send_buff[1] = 0x02;
+    UDP_send_buff[2] = 0x03;
+    UDP_send_buff[3] = 0x04;
+
+    UDP_send(UDP_send_buff,4);
+    a = 1;
+  }
+  else
+  {
+    UDP_send_buff[0] = 0x05;
+    UDP_send_buff[1] = 0x06;
+
+
+    UDP_send(UDP_send_buff,2);
+    a = 0;
+  }
+
+  /* USER CODE END TIM2_IRQn 0 */
+  HAL_TIM_IRQHandler(&htim2);
+  /* USER CODE BEGIN TIM2_IRQn 1 */
+
+  /* USER CODE END TIM2_IRQn 1 */
+}
 
 /* USER CODE BEGIN 1 */
 

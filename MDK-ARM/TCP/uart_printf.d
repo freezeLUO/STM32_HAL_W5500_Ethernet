@@ -26,6 +26,8 @@ tcp\uart_printf.o: ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash.h
 tcp\uart_printf.o: ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash_ex.h
 tcp\uart_printf.o: ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_pwr.h
 tcp\uart_printf.o: ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_spi.h
+tcp\uart_printf.o: ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim.h
+tcp\uart_printf.o: ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim_ex.h
 tcp\uart_printf.o: ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_uart.h
 tcp\uart_printf.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdarg.h
 tcp\uart_printf.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdio.h

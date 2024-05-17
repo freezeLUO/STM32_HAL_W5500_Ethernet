@@ -26,8 +26,11 @@ tcp\main.o: ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash.h
 tcp\main.o: ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash_ex.h
 tcp\main.o: ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_pwr.h
 tcp\main.o: ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_spi.h
+tcp\main.o: ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim.h
+tcp\main.o: ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim_ex.h
 tcp\main.o: ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_uart.h
 tcp\main.o: ../Core/Inc/spi.h
+tcp\main.o: ../Core/Inc/tim.h
 tcp\main.o: ../Core/Inc/usart.h
 tcp\main.o: ../Core/Inc/gpio.h
 tcp\main.o: ../Drivers/uart_printf/uart_printf.h

@@ -79,6 +79,7 @@
     "wizchip_conf.h": "c",
     "w5500.h": "c",
     "main.h": "c",
-    "spi.h": "c"
+    "spi.h": "c",
+    "gpio.h": "c"
   }
 }

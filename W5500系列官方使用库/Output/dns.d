@@ -1,0 +1,9 @@
+..\output\dns.o: ..\Internet\Application\dns.c
+..\output\dns.o: D:\keil5\ARM\ARMCC\bin\..\include\string.h
+..\output\dns.o: D:\keil5\ARM\ARMCC\bin\..\include\stdlib.h
+..\output\dns.o: ..\Internet\W5500\socket.h
+..\output\dns.o: ..\Internet\W5500\wizchip_conf.h
+..\output\dns.o: D:\keil5\ARM\ARMCC\bin\..\include\stdint.h
+..\output\dns.o: ..\Internet\W5500\w5500.h
+..\output\dns.o: ..\Internet\W5500\wizchip_conf.h
+..\output\dns.o: ..\Internet\Application\dns.h

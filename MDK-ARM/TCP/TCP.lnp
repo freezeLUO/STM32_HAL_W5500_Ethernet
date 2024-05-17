@@ -3,6 +3,7 @@
 "tcp\main.o"
 "tcp\gpio.o"
 "tcp\spi.o"
+"tcp\tim.o"
 "tcp\usart.o"
 "tcp\stm32f1xx_it.o"
 "tcp\stm32f1xx_hal_msp.o"

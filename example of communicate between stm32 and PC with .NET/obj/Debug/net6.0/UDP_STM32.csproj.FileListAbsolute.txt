@@ -1,0 +1,15 @@
+C:\Users\L\Desktop\ROV\C#\UDP_STM32\bin\Debug\net6.0\UDP_STM32.exe
+C:\Users\L\Desktop\ROV\C#\UDP_STM32\bin\Debug\net6.0\UDP_STM32.deps.json
+C:\Users\L\Desktop\ROV\C#\UDP_STM32\bin\Debug\net6.0\UDP_STM32.runtimeconfig.json
+C:\Users\L\Desktop\ROV\C#\UDP_STM32\bin\Debug\net6.0\UDP_STM32.dll
+C:\Users\L\Desktop\ROV\C#\UDP_STM32\bin\Debug\net6.0\UDP_STM32.pdb
+C:\Users\L\Desktop\ROV\C#\UDP_STM32\obj\Debug\net6.0\UDP_STM32.csproj.AssemblyReference.cache
+C:\Users\L\Desktop\ROV\C#\UDP_STM32\obj\Debug\net6.0\UDP_STM32.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\L\Desktop\ROV\C#\UDP_STM32\obj\Debug\net6.0\UDP_STM32.AssemblyInfoInputs.cache
+C:\Users\L\Desktop\ROV\C#\UDP_STM32\obj\Debug\net6.0\UDP_STM32.AssemblyInfo.cs
+C:\Users\L\Desktop\ROV\C#\UDP_STM32\obj\Debug\net6.0\UDP_STM32.csproj.CoreCompileInputs.cache
+C:\Users\L\Desktop\ROV\C#\UDP_STM32\obj\Debug\net6.0\UDP_STM32.dll
+C:\Users\L\Desktop\ROV\C#\UDP_STM32\obj\Debug\net6.0\refint\UDP_STM32.dll
+C:\Users\L\Desktop\ROV\C#\UDP_STM32\obj\Debug\net6.0\UDP_STM32.pdb
+C:\Users\L\Desktop\ROV\C#\UDP_STM32\obj\Debug\net6.0\UDP_STM32.genruntimeconfig.cache
+C:\Users\L\Desktop\ROV\C#\UDP_STM32\obj\Debug\net6.0\ref\UDP_STM32.dll

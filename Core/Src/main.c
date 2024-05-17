@@ -19,6 +19,7 @@
 /* Includes ------------------------------------------------------------------*/
 #include "main.h"
 #include "spi.h"
+#include "tim.h"
 #include "usart.h"
 #include "gpio.h"
 
@@ -97,9 +98,13 @@ int main(void)
   MX_GPIO_Init();
   MX_SPI1_Init();
   MX_USART1_UART_Init();
+  MX_TIM2_Init();
   /* USER CODE BEGIN 2 */
+  //�??启定时器1
+  //HAL_TIM_Base_Start(&htim1);
   UDPinit();
 
+  HAL_TIM_Base_Start_IT(&htim2); //�??启定时器2
   // set sever ip and port
 
   // receive buffer
@@ -112,8 +117,8 @@ int main(void)
   {
     /* USER CODE END WHILE */
 
-  do_udp();
     /* USER CODE BEGIN 3 */
+    do_udp();
   }
   /* USER CODE END 3 */
 }

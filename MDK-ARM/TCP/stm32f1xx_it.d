@@ -26,5 +26,16 @@ tcp\stm32f1xx_it.o: ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash.h
 tcp\stm32f1xx_it.o: ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash_ex.h
 tcp\stm32f1xx_it.o: ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_pwr.h
 tcp\stm32f1xx_it.o: ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_spi.h
+tcp\stm32f1xx_it.o: ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim.h
+tcp\stm32f1xx_it.o: ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim_ex.h
 tcp\stm32f1xx_it.o: ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_uart.h
 tcp\stm32f1xx_it.o: ../Core/Inc/stm32f1xx_it.h
+tcp\stm32f1xx_it.o: ../Core/Inc/gpio.h
+tcp\stm32f1xx_it.o: ../Drivers/MyUDP/MyUDP.h
+tcp\stm32f1xx_it.o: ../Drivers/MyUDP/MyUDP.h
+tcp\stm32f1xx_it.o: ../Drivers/Ethernet/W5500/w5500.h
+tcp\stm32f1xx_it.o: ../Drivers/Ethernet/wizchip_conf.h
+tcp\stm32f1xx_it.o: ../Drivers/Ethernet/W5500/w5500.h
+tcp\stm32f1xx_it.o: ../Drivers/Ethernet/socket.h
+tcp\stm32f1xx_it.o: ../Core/Inc/spi.h
+tcp\stm32f1xx_it.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\string.h

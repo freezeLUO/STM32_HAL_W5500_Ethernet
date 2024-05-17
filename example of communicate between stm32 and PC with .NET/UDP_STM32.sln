@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.6.33801.468
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UDP_STM32", "UDP_STM32.csproj", "{41D25442-04D8-4B9F-8739-B84EA7B0A136}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{41D25442-04D8-4B9F-8739-B84EA7B0A136}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{41D25442-04D8-4B9F-8739-B84EA7B0A136}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{41D25442-04D8-4B9F-8739-B84EA7B0A136}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{41D25442-04D8-4B9F-8739-B84EA7B0A136}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {C3B6FB54-7281-44F4-8E37-6F4C9894F0B0}
+	EndGlobalSection
+EndGlobal

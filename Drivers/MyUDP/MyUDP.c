@@ -6,10 +6,11 @@
 #include "spi.h"
 #include <string.h>  // memcmp
 
-uint8_t buff[128];   
+uint8_t buff[128];  
+uint8_t UDP_send_buff[128]; 
                                                     
 uint8_t remote_ip[4] = {192, 168, 1, 2}; //远程IP地址
-uint16_t remote_port = 5000; //远程端口号
+uint16_t remote_port = 5002; //远程端口号
 
 
 void W5500_Select(void) {
@@ -91,6 +92,14 @@ void UDPinit(void)
     // failed
     
   }
+
+  uint8_t sta = getSn_SR(SOCK_UDPS);
+  if(sta == SOCK_CLOSED)
+  {
+    socket(SOCK_UDPS, Sn_MR_UDP, 5001, 0);
+  }
+  HAL_Delay(100);
+
 }
 
 
@@ -100,7 +109,7 @@ void do_udp(void)
 	switch(getSn_SR(SOCK_UDPS))       /*获取socket的状态*/
 	{
 		case SOCK_CLOSED:                 /*socket处于关闭状态*/
-			socket(SOCK_UDPS,Sn_MR_UDP,5000,0);    /*初始化socket*/
+			socket(SOCK_UDPS,Sn_MR_UDP,5001,0);    /*初始化socket*/
 		  break;
 		
 		case SOCK_UDP:      /*socket初始化完成*/
@@ -112,13 +121,18 @@ void do_udp(void)
 			if((len=getSn_RX_RSR(SOCK_UDPS))>0)  /*接收到数据*/
 			{
 				recvfrom(SOCK_UDPS,buff, len, remote_ip,&remote_port);               /*W5500接收计算机发送来的数据*/
-				//buff[len-8]=0x00;                                                    /*添加字符串结束符*/
-				//printf("%s\r\n",buff);                                               /*打印接收缓存*/ 
-				sendto(SOCK_UDPS,buff,len-8, remote_ip, remote_port);                /*W5500把接收到的数据发送给Remote*/
+				sendto(SOCK_UDPS,buff,len-8, remote_ip, remote_port);                /*W5500把接收到的数据发送*/
         memset(buff, 0, sizeof(buff));
 			}
 			break;
 	}
+
+}
+
+void UDP_send(uint8_t* data,uint8_t len)
+{
+  sendto(SOCK_UDPS, data, len, remote_ip, remote_port);
+  memset(data, 0, len);
 
 }
 
