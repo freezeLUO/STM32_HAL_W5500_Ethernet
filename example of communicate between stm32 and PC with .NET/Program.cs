@@ -3,6 +3,7 @@ using System.Net;
 using System.Net.Sockets;
 using System.Threading;
 using System.Text;
+using System.Net.NetworkInformation;
 
 class Program
 {
@@ -66,7 +67,8 @@ class Program
     {
         //string messageToSend = "Hello from PC!";
         //byte[] sendData = Encoding.UTF8.GetBytes(messageToSend);
-        string sourceIp = "192.168.1.2"; // 示例IP，根据实际情况替换
+        //string sourceIp = "192.168.1.2"; // 示例IP，根据实际情况替换
+        string localIpAddress = GetLocalIPAddress();
         int sourcePort = 5002; // 假定的发送端口，如果是从特定端口发送则应获取该端口
         byte[] sendData = {0xFF,0xFF, 0xFF, 0xFF };
         string messageToSend = ByteArrayToHexadecimalString(sendData);
@@ -76,7 +78,7 @@ class Program
             {
                 receiver.Send(sendData, sendData.Length, RemoteEndPoint);
                 //Console.WriteLine($"PC -> STM32:({sourceIp}:{sourcePort})  {messageToSend}");
-                Console.WriteLine($"\u001b[33mPC -> STM32:({sourceIp}:{sourcePort})  {messageToSend}\u001b[0m");
+                Console.WriteLine($"\u001b[33mPC -> STM32:({localIpAddress}:{sourcePort})  {messageToSend}\u001b[0m");
             }
             catch (Exception ex)
             {
@@ -96,5 +98,29 @@ class Program
             hexString.Append(" ");
         }
         return hexString.ToString();
+    }
+
+    public static string GetLocalIPAddress()
+    {
+        var interfaces = NetworkInterface.GetAllNetworkInterfaces();
+        foreach (var network in interfaces)
+        {
+            if (network.OperationalStatus != OperationalStatus.Up)
+                continue;
+
+            var properties = network.GetIPProperties();
+            if (properties.GatewayAddresses == null || properties.GatewayAddresses.Count == 0)
+                continue;
+
+            foreach (var address in properties.UnicastAddresses)
+            {
+                if (address.Address.AddressFamily == AddressFamily.InterNetwork) // IPv4
+                {
+                    return address.Address.ToString();
+                }
+            }
+        }
+
+        throw new Exception("无法找到有效的本地IPv4地址");
     }
 }
