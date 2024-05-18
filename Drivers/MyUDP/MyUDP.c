@@ -12,15 +12,13 @@ uint8_t UDP_send_buff[128];
 uint8_t remote_ip[4] = {192, 168, 1, 2}; //远程IP地址
 uint16_t remote_port = 5002; //远程端口号
 
-
+//片选
 void W5500_Select(void) {
     HAL_GPIO_WritePin(W5500_CS_GPIO_Port, W5500_CS_Pin, GPIO_PIN_RESET);
 }
-
 void W5500_Unselect(void) {
     HAL_GPIO_WritePin(W5500_CS_GPIO_Port, W5500_CS_Pin, GPIO_PIN_SET);
 }
-
 void W5500_Restart(void) {
     HAL_GPIO_WritePin(W5500_RST_GPIO_Port, W5500_RST_Pin, GPIO_PIN_RESET);
     HAL_Delay(1);  // delay 1ms
@@ -46,6 +44,7 @@ void W5500_WriteByte(uint8_t byte) {
     W5500_WriteBuff(&byte, sizeof(byte));
 }
 
+//配置W5500网络信息
 wiz_NetInfo gSetNetInfo = {
   .mac  = {0x00, 0x08, 0xdc, 0x11, 0x11, 0x11},
   .ip   = {192, 168, 1, 1},
@@ -120,8 +119,9 @@ void do_udp(void)
 			}
 			if((len=getSn_RX_RSR(SOCK_UDPS))>0)  /*接收到数据*/
 			{
-				recvfrom(SOCK_UDPS,buff, len, remote_ip,&remote_port);               /*W5500接收计算机发送来的数据*/
+				recvfrom(SOCK_UDPS,buff, len, remote_ip,&remote_port);               /*W5500接收计算机发送来的数据W5500接收计算机发送来的数据，并获取发送方的IP地址和端口号*/
 				sendto(SOCK_UDPS,buff,len-8, remote_ip, remote_port);                /*W5500把接收到的数据发送*/
+        Analysis(buff);//分析数据
         memset(buff, 0, sizeof(buff));
 			}
 			break;
@@ -133,7 +133,10 @@ void UDP_send(uint8_t* data,uint8_t len)
 {
   sendto(SOCK_UDPS, data, len, remote_ip, remote_port);
   memset(data, 0, len);
-
 }
 
+//分析数据
+void Analysis(uint8_t *buf)
+{
 
+}

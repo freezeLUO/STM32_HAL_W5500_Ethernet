@@ -16,4 +16,5 @@ extern uint16_t remote_port; //远程端口号
 void UDPinit(void);
 void do_udp(void);
 void UDP_send(uint8_t* data,uint8_t len);
+void Analysis(uint8_t *buf);
 #endif // MYUDP_H
