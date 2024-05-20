@@ -8,4 +8,4 @@ build_property.PlatformNeutralAssembly =
 build_property.EnforceExtendedAnalyzerRules = 
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = UDP_STM32
-build_property.ProjectDir = C:\Users\L\Desktop\ROV\C#\UDP_STM32\
+build_property.ProjectDir = C:\Users\L\Desktop\ROV\STM32Projects\HAL_UDP\example of communicate between stm32 and PC with .NET\

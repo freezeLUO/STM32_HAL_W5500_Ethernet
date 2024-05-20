@@ -68,7 +68,7 @@ class Program
         //string messageToSend = "Hello from PC!";
         //byte[] sendData = Encoding.UTF8.GetBytes(messageToSend);
         //string sourceIp = "192.168.1.2"; // 示例IP，根据实际情况替换
-        string localIpAddress = GetLocalIPAddress();
+        string localIpAddress = GetEthernetLocalIPAddress();
         int sourcePort = 5002; // 假定的发送端口，如果是从特定端口发送则应获取该端口
         byte[] sendData = {0xFF,0xFF, 0xFF, 0xFF };
         string messageToSend = ByteArrayToHexadecimalString(sendData);
@@ -100,18 +100,20 @@ class Program
         return hexString.ToString();
     }
 
-    public static string GetLocalIPAddress()
+    public static string GetEthernetLocalIPAddress()
     {
         var interfaces = NetworkInterface.GetAllNetworkInterfaces();
         foreach (var network in interfaces)
         {
-            if (network.OperationalStatus != OperationalStatus.Up)
+            // 确保网络接口处于工作状态且是 Ethernet 类型
+            if (network.OperationalStatus != OperationalStatus.Up || network.NetworkInterfaceType != NetworkInterfaceType.Ethernet)
                 continue;
 
             var properties = network.GetIPProperties();
             if (properties.GatewayAddresses == null || properties.GatewayAddresses.Count == 0)
                 continue;
 
+            // 查找IPv4地址
             foreach (var address in properties.UnicastAddresses)
             {
                 if (address.Address.AddressFamily == AddressFamily.InterNetwork) // IPv4
@@ -121,6 +123,6 @@ class Program
             }
         }
 
-        throw new Exception("无法找到有效的本地IPv4地址");
+        throw new Exception("无法找到有效的本地以太网IPv4地址");
     }
 }

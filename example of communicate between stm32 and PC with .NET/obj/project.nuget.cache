@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "xp5rgeX5QHo+HvoCZQlrihp9NkCgY6T4t9/2iOCuOh4KbvbqES0WaPEkR70Zj8VzAnSpun6uM0lmQIqUrL3olA==",
+  "dgSpecHash": "ltHGlLzsU7QzUl/fZK8OITLKYoHin12QJ2Fjpm/2LEK7mUy4fie7LQOoi2QjCH6r2jKtFEJjQa5HdjbuHMInPw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\L\\Desktop\\ROV\\C#\\UDP_STM32\\UDP_STM32.csproj",
+  "projectFilePath": "C:\\Users\\L\\Desktop\\ROV\\STM32Projects\\HAL_UDP\\example of communicate between stm32 and PC with .NET\\UDP_STM32.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\L\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\6.0.30\\microsoft.windowsdesktop.app.ref.6.0.30.nupkg.sha512",
     "C:\\Users\\L\\.nuget\\packages\\microsoft.netcore.app.ref\\6.0.30\\microsoft.netcore.app.ref.6.0.30.nupkg.sha512",
